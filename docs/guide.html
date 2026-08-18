@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>オークション購買ガイド — Coffee Auction Index</title>
+<meta name="description" content="スペシャルティコーヒー・オークションで生豆を買いたい人向けの図解ガイド。参加の流れ・価格帯・費用・プラットフォームをビジュアルで解説。">
+<style>
+:root{
+  --bg:#14100d; --panel:#1e1813; --panel2:#271f18; --line:#3a2f25;
+  --ink:#f3ece2; --mut:#b7a894; --dim:#8a7864;
+  --gold:#e8b04b; --gold2:#c8842a; --teal:#4aa4a0; --green:#7bc47f; --red:#e06b6b;
+  --chip:#2c231b; --shadow:0 8px 30px rgba(0,0,0,.35);
+}
+@media (prefers-color-scheme: light){
+  :root{--bg:#f6f1e8;--panel:#fffdf8;--panel2:#f2e9da;--line:#e2d5c1;--ink:#241c14;--mut:#6b5c48;--dim:#94836c;--chip:#efe5d4;--shadow:0 8px 30px rgba(120,90,40,.12)}
+}
+:root[data-theme="dark"]{--bg:#14100d;--panel:#1e1813;--panel2:#271f18;--line:#3a2f25;--ink:#f3ece2;--mut:#b7a894;--dim:#8a7864;--chip:#2c231b}
+:root[data-theme="light"]{--bg:#f6f1e8;--panel:#fffdf8;--panel2:#f2e9da;--line:#e2d5c1;--ink:#241c14;--mut:#6b5c48;--dim:#94836c;--chip:#efe5d4}
+*{box-sizing:border-box} html,body{margin:0}
+body{background:var(--bg); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",Segoe UI,Roboto,sans-serif;
+  line-height:1.7; -webkit-font-smoothing:antialiased}
+a{color:var(--gold); text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:900px; margin:0 auto; padding:0 18px}
+header.top{padding:28px 0 22px; border-bottom:1px solid var(--line);
+  background:radial-gradient(1100px 300px at 15% -60%, rgba(232,176,75,.14), transparent)}
+.back{font-size:13px; color:var(--mut)}
+h1{font-size:30px; margin:12px 0 6px; letter-spacing:.4px}
+.lead{color:var(--mut); font-size:15px; margin:0 0 16px}
+.hero{display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-top:6px}
+.hero .h{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 16px}
+.hero .h .ic{font-size:22px} .hero .h .n{font-size:20px; font-weight:800; margin-top:4px}
+.hero .h .l{font-size:12px; color:var(--mut)}
+.hero .h .n.gold{color:var(--gold)}
+h2{font-size:21px; margin:44px 0 14px; display:flex; align-items:center; gap:10px}
+h2 .n{display:inline-flex; align-items:center; justify-content:center; width:32px; height:32px; border-radius:10px;
+  background:var(--gold); color:#231a0e; font-size:15px; font-weight:800; flex:none}
+p{margin:10px 0} .muted{color:var(--mut); font-size:14px}
+
+/* ===== プロセス・タイムライン ===== */
+.flow{position:relative; margin:18px 0 8px; padding-left:6px}
+.flow::before{content:""; position:absolute; left:26px; top:14px; bottom:14px; width:3px;
+  background:linear-gradient(var(--gold), var(--gold2)); border-radius:2px; opacity:.5}
+.fstep{position:relative; display:flex; gap:16px; padding:10px 0}
+.fstep .node{width:52px; height:52px; border-radius:14px; background:var(--panel); border:2px solid var(--gold);
+  display:flex; align-items:center; justify-content:center; font-size:24px; flex:none; z-index:1; box-shadow:var(--shadow)}
+.fstep .body{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:12px 16px; flex:1}
+.fstep .body .s{font-size:11.5px; font-weight:800; color:var(--gold); letter-spacing:1px}
+.fstep .body h3{margin:2px 0 4px; font-size:16px}
+.fstep .body p{margin:0; font-size:13.5px; color:var(--mut)}
+
+/* ===== 価格ラダー（ログスケール） ===== */
+.viz{background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:18px; margin:16px 0}
+.viz .cap{font-size:12.5px; color:var(--dim); margin-top:6px}
+svg{display:block; width:100%; height:auto}
+.axis{fill:var(--dim); font-size:20px; font-family:inherit}
+.grid{stroke:var(--line); stroke-width:2}
+.tier-lbl{fill:var(--ink); font-size:21px; font-weight:700; font-family:inherit}
+.tier-sub{fill:var(--mut); font-size:17px; font-family:inherit}
+.stem{stroke:var(--mut); stroke-width:2; opacity:.5}
+
+/* ===== サンプル→本番タイムライン ===== */
+.tl{display:flex; align-items:center; gap:10px; margin:14px 0; flex-wrap:wrap}
+.tl .pt{flex:1; min-width:150px; background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 16px; text-align:center}
+.tl .pt .ic{font-size:26px} .tl .pt .t{font-weight:800; margin-top:4px} .tl .pt .d{font-size:12.5px; color:var(--mut)}
+.tl .pt.samp{border-color:var(--teal)} .tl .pt.samp .t{color:var(--teal)}
+.tl .pt.auc{border-color:var(--gold)} .tl .pt.auc .t{color:var(--gold)}
+.tl .arrow{color:var(--mut); font-weight:800; font-size:13px; text-align:center; white-space:nowrap}
+
+/* ===== 費用の内訳バー ===== */
+.costbar{display:flex; height:44px; border-radius:12px; overflow:hidden; border:1px solid var(--line); margin:10px 0}
+.costbar .seg{display:flex; align-items:center; justify-content:center; font-size:11.5px; font-weight:700; color:#231a0e; text-align:center; padding:0 4px}
+.costlegend{display:flex; flex-wrap:wrap; gap:12px; margin-top:8px; font-size:12.5px; color:var(--mut)}
+.costlegend i{display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:5px; vertical-align:-1px}
+
+/* ===== プラットフォーム / 用語 カード ===== */
+.cards{display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin:12px 0}
+@media(max-width:680px){.cards{grid-template-columns:1fr} .hero{grid-template-columns:1fr}}
+.pcard{background:var(--panel); border:1px solid var(--line); border-radius:14px; overflow:hidden}
+.pcard .top{padding:12px 14px; font-weight:800; color:#231a0e; font-size:14px}
+.pcard .b{padding:12px 14px; font-size:12.5px; color:var(--mut)}
+.pcard .b b{color:var(--ink)}
+.terms{display:grid; grid-template-columns:1fr 1fr; gap:10px; margin:12px 0}
+@media(max-width:600px){.terms{grid-template-columns:1fr}}
+.term{background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:12px 14px}
+.term b{display:block; font-size:14px} .term span{font-size:12.5px; color:var(--mut)}
+
+.chk{list-style:none; padding:0; margin:10px 0}
+.chk li{padding:8px 0 8px 30px; position:relative; font-size:14px; border-bottom:1px solid var(--line)}
+.chk li:last-child{border-bottom:none}
+.chk li::before{content:"✓"; position:absolute; left:4px; top:8px; color:#231a0e; background:var(--gold);
+  width:19px; height:19px; border-radius:50%; font-size:12px; font-weight:800; display:flex; align-items:center; justify-content:center}
+.note{border-left:3px solid var(--gold); background:var(--panel); padding:12px 16px; border-radius:0 12px 12px 0; margin:16px 0; font-size:14px}
+.note.warn{border-left-color:var(--red)}
+.conv{display:inline-flex; align-items:center; gap:10px; background:var(--panel); border:1px solid var(--line); border-radius:999px; padding:8px 16px; font-weight:700; margin:6px 0}
+.conv .x{color:var(--gold)}
+footer{border-top:1px solid var(--line); margin-top:44px; padding:22px 0 50px; color:var(--dim); font-size:12.5px}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="back" href="./index.html">← Coffee Auction Index にもどる</a>
+  <h1>オークション購買ガイド ☕🔨</h1>
+  <p class="lead">スペシャルティコーヒーのオークションで<b>生豆を買いたい人</b>のための図解ガイド。</p>
+  <div class="hero">
+    <div class="h"><div class="ic">🗓️</div><div class="n gold">7</div><div class="l">参加のステップ</div></div>
+    <div class="h"><div class="ic">📈</div><div class="n">$1.5→$13,705</div><div class="l">1ポンドあたりの価格帯</div></div>
+    <div class="h"><div class="ic">🌍</div><div class="n">3</div><div class="l">主な入札プラットフォーム</div></div>
+  </div>
+</div></header>
+
+<div class="wrap">
+
+  <h2><span class="n">1</span>参加の流れ</h2>
+  <div class="flow">
+    <div class="fstep"><div class="node">🎯</div><div class="body"><div class="s">STEP 1</div><h3>オークションを選ぶ</h3><p><a href="./index.html">カレンダー</a>で開催日と<b>サンプル期限</b>を確認し逆算。</p></div></div>
+    <div class="fstep"><div class="node">📝</div><div class="body"><div class="s">STEP 2</div><h3>プラットフォームに登録</h3><p>mCultivo / V-Auction / Best of Panama でバイヤー登録。</p></div></div>
+    <div class="fstep"><div class="node">📦</div><div class="body"><div class="s">STEP 3</div><h3>サンプルセットを注文</h3><p>締切前に出品ロットの評価用サンプルを入手。</p></div></div>
+    <div class="fstep"><div class="node">🔥</div><div class="body"><div class="s">STEP 4</div><h3>焙煎してカッピング</h3><p>自分で評価し、ロットごとの上限入札額を決める。</p></div></div>
+    <div class="fstep"><div class="node">✅</div><div class="body"><div class="s">STEP 5</div><h3>入札登録（デポジット）</h3><p>本番前の登録・保証金。締切と時差を確認。</p></div></div>
+    <div class="fstep"><div class="node">🔨</div><div class="body"><div class="s">STEP 6</div><h3>オンライン入札</h3><p>単価×重量で競り。高額ロットは共同入札も。</p></div></div>
+    <div class="fstep"><div class="node">🚢</div><div class="body"><div class="s">STEP 7</div><h3>落札・支払い・輸入</h3><p>グリーン価格＋手数料＋輸送・通関を精算。</p></div></div>
+  </div>
+
+  <h2><span class="n">2</span>価格帯を知る</h2>
+  <p class="muted">同じ「コーヒー」でも、コモディティからオークション最高値まで<b>1万倍近い</b>開きがあります（横軸は対数目盛・USD/lb）。</p>
+  <div class="viz">
+    <svg viewBox="0 0 1000 250" role="img" aria-label="コーヒー価格帯のログスケール">
+      <defs><linearGradient id="pg" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#8a7864"/><stop offset="0.5" stop-color="#c8842a"/><stop offset="1" stop-color="#e8b04b"/>
+      </linearGradient></defs>
+      <!-- gridlines: $1,$10,$100,$1k,$10k  x=log10/4.3*1000 -->
+      <g>
+        <line class="grid" x1="0" y1="150" x2="0" y2="190"/><text class="axis" x="6" y="212">$1</text>
+        <line class="grid" x1="232" y1="150" x2="232" y2="190"/><text class="axis" x="232" y="212">$10</text>
+        <line class="grid" x1="465" y1="150" x2="465" y2="190"/><text class="axis" x="465" y="212">$100</text>
+        <line class="grid" x1="698" y1="150" x2="698" y2="190"/><text class="axis" x="698" y="212">$1,000</text>
+        <line class="grid" x1="930" y1="150" x2="930" y2="190"/><text class="axis" x="900" y="212">$10,000</text>
+      </g>
+      <rect x="0" y="150" width="1000" height="34" rx="8" fill="url(#pg)"/>
+      <!-- tiers -->
+      <g>
+        <circle cx="41" cy="167" r="8" fill="#231a0e" opacity=".5"/><line class="stem" x1="41" y1="150" x2="41" y2="120"/>
+        <text class="tier-lbl" x="41" y="112" text-anchor="start">コモディティ</text><text class="tier-sub" x="41" y="90">〜$2/lb</text>
+
+        <circle cx="181" cy="167" r="8" fill="#231a0e" opacity=".5"/><line class="stem" x1="181" y1="150" x2="181" y2="64"/>
+        <text class="tier-lbl" x="181" y="56" text-anchor="start">スペシャルティ</text><text class="tier-sub" x="181" y="34">$3〜10/lb</text>
+
+        <circle cx="470" cy="167" r="9" fill="#fff"/><line class="stem" x1="470" y1="150" x2="470" y2="120"/>
+        <text class="tier-lbl" x="470" y="112" text-anchor="middle">COE 上位</text><text class="tier-sub" x="470" y="90" text-anchor="middle">$50〜150/lb</text>
+
+        <circle cx="559" cy="167" r="9" fill="#fff"/><line class="stem" x1="559" y1="150" x2="559" y2="64"/>
+        <text class="tier-lbl" x="559" y="56" text-anchor="middle">Gesha Village</text><text class="tier-sub" x="559" y="34" text-anchor="middle">$254/lb（ｱﾌﾘｶ最高）</text>
+
+        <circle cx="962" cy="167" r="10" fill="#e8b04b" stroke="#231a0e" stroke-width="2"/><line class="stem" x1="962" y1="150" x2="962" y2="120"/>
+        <text class="tier-lbl" x="962" y="112" text-anchor="end">Best of Panama</text><text class="tier-sub" x="962" y="90" text-anchor="end">$13,705/lb（世界記録）</text>
+      </g>
+    </svg>
+    <div class="cap">出典：本サイト収録データ（Nicaragua/Guatemala COE、Gesha Village 2022、Best of Panama 2025 ほか）。</div>
+  </div>
+  <div class="conv">1 lb ≈ 0.4536 kg <span class="x">→</span> $/kg は $/lb の約 <b>2.2倍</b></div>
+
+  <h2><span class="n">3</span>サンプル期限と本番の関係</h2>
+  <p class="muted">本番の<b>前に</b>サンプルを取り寄せてカッピングする時間が必要。人気オークションほど締切が早い。</p>
+  <div class="tl">
+    <div class="pt samp"><div class="ic">📦</div><div class="t">サンプル期限</div><div class="d">出品ロットの評価用<br>（本番の目安3週間前）</div></div>
+    <div class="arrow">──[カッピング／予算決定]──▶</div>
+    <div class="pt auc"><div class="ic">🔨</div><div class="t">オークション本番</div><div class="d">オンラインで入札<br>落札＝約束</div></div>
+  </div>
+  <p class="note">本サイトの<a href="./index.html">カレンダー</a>では、オークション日（金ドット）と<b>生豆サンプル期限の目安</b>（青緑ドット）を同じ月に並べて表示しています。</p>
+
+  <h2><span class="n">4</span>費用の全体像</h2>
+  <p class="muted">落札額（グリーン価格）だけでなく、前後にかかるコストも見込みましょう（下は割合の<b>イメージ</b>）。</p>
+  <div class="costbar">
+    <div class="seg" style="width:8%; background:#7bc47f">サンプル</div>
+    <div class="seg" style="width:56%; background:#e8b04b">落札グリーン価格</div>
+    <div class="seg" style="width:12%; background:#c8842a">手数料</div>
+    <div class="seg" style="width:14%; background:#b7a894">輸送</div>
+    <div class="seg" style="width:10%; background:#8a7864; color:#fff">通関・国内</div>
+  </div>
+  <div class="costlegend">
+    <span><i style="background:#7bc47f"></i>サンプルセット（数百$）</span>
+    <span><i style="background:#e8b04b"></i>落札額＝単価×重量</span>
+    <span><i style="background:#c8842a"></i>オークション手数料</span>
+    <span><i style="background:#b7a894"></i>輸出・輸送</span>
+    <span><i style="background:#8a7864"></i>関税・通関・物流</span>
+  </div>
+  <p class="muted" style="margin-top:8px">※ 日本は生豆の関税が0ですが、消費税・通関・国内物流費はかかります。割合はロットや距離で大きく変わります。</p>
+
+  <h2><span class="n">5</span>主なプラットフォーム</h2>
+  <div class="cards">
+    <div class="pcard"><div class="top" style="background:#e8b04b">mCultivo</div><div class="b">Dubai・Colombia Land of Diversity・Best of Congo・Daterra・Lamastus・Esmeralda ほか。<br><b>生産者/イベント型</b>を幅広くホスト。</div></div>
+    <div class="pcard"><div class="top" style="background:#4aa4a0">V-Auction</div><div class="b">Cup of Excellence（2025〜）・Best of Yemen。<br>物流大手 <b>Vollers</b> 系の公式入札基盤。</div></div>
+    <div class="pcard"><div class="top" style="background:#c8842a">Best of Panama</div><div class="b">パナマ専用の電子オークション。<br><b>ゲイシャ高額ロット</b>の中心地。</div></div>
+  </div>
+
+  <h2><span class="n">6</span>用語集</h2>
+  <div class="terms">
+    <div class="term"><b>Lot（ロット）</b><span>1区画・1精製単位の出品。数十kgの小口が多い。</span></div>
+    <div class="term"><b>Cupping Score</b><span>官能評価点。SCA80+がスペシャルティ、COEは概ね86〜87+。</span></div>
+    <div class="term"><b>$/lb・$/kg</b><span>ポンド/キロ単価。1lb≈0.4536kg。</span></div>
+    <div class="term"><b>High / Final Bid</b><span>最高入札＝落札単価。</span></div>
+    <div class="term"><b>Sample Set</b><span>評価用サンプル一式。締切前に注文。</span></div>
+    <div class="term"><b>National Winner (NW)</b><span>国内審査の上位入賞ロット。</span></div>
+    <div class="term"><b>Consortium</b><span>複数バイヤーの共同入札・共同購入。</span></div>
+    <div class="term"><b>Process（精製）</b><span>Washed / Natural / Honey / Anaerobic 等。</span></div>
+  </div>
+
+  <h2><span class="n">7</span>はじめての人へのコツ</h2>
+  <ul class="chk">
+    <li>まずは<b>1つのオークション</b>に絞り、サンプルセットでカッピングの目を養う。</li>
+    <li>いきなり高額ゲイシャを狙わず、<b>手頃な中位ロット</b>や共同購入から。</li>
+    <li><b>サンプル期限・入札登録・本番の時差</b>を最初にカレンダー登録する。</li>
+    <li>輸入商社・フォワーダーなど<b>実務パートナー</b>を早めに確保。</li>
+    <li>落札は約束。<b>上限額を決めて</b>感情的な競り上げを避ける。</li>
+  </ul>
+
+  <div class="note warn"><b>ご注意：</b>本ガイドは一般的な情報提供で、各オークションの規約が優先されます。参加条件・締切・費用・サンプル期限は必ず主催者/公式サイトでご確認ください。</div>
+  <div class="note"><a href="./index.html">→ 今年の開催日・サンプル期限をカレンダーで見る</a></div>
+</div>
+
+<footer><div class="wrap">Coffee Auction Index — 購買ガイド。価格・日程は各オークションの公表情報に基づく参考値です。</div></footer>
+
+<script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</body>
+</html>

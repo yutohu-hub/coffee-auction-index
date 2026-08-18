@@ -1,0 +1,29 @@
+# コーヒーオークションまとめ — 巡回対象と設定
+settings:
+  timeout_sec: 25
+  event_days: 30        # サイトに載せる「新着イベント」の対象日数
+  sample_lead_days: 21  # オークション日から逆算する生豆サンプル注文期限の目安（日）
+
+sources:
+  # Cup of Excellence（各国COE）: 公式結果ページを自動巡回
+  coe:
+    enabled: true
+    min_year: 2010      # この年以降の結果を対象にする（過去の落札記録も収集）
+    max_pages: 320      # 1回の巡回で取得する国×年ページの上限（初回で全期間を網羅）
+    concurrency: 5      # 同時アクセス数（控えめに）
+
+  # mCultivo（CultivoCommerce）ホストのオークション結果ページを実スクレイピング。
+  # 完了済みオークションの結果URLをここに列挙する（同一構造で複数を一括取得）。
+  # country を空にすると多国籍オークション扱い（農園・ロット名から原産国を推定）。
+  mcultivo:
+    enabled: true
+    concurrency: 4
+    auctions:
+      - name: "Dubai Coffee Auction"
+        url: "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february"
+        year: 2025
+        country: ""     # 9か国から出品の多国籍オークション
+
+  # Best of Panama / Gesha Village / Colombia Land of Diversity / CGLE(Cumbres de Colombia) など、
+  # 全ロットの機械可読データが無いオークションは data/seed.json のキュレーション
+  # （報道・公式発表ベースの代表ロット）。結果URLが判明したものは順次 mcultivo へ移行。

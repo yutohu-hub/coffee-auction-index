@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coffee Auction Index — 世界のコーヒーオークションまとめ</title>
+<meta name="description" content="Cup of Excellence・Best of Panama など世界のスペシャルティコーヒー・オークションの落札結果を横断してまとめる索引。">
+<style>
+:root{
+  --bg:#14100d; --panel:#1e1813; --panel2:#271f18; --line:#3a2f25;
+  --ink:#f3ece2; --mut:#b7a894; --dim:#8a7864;
+  --gold:#e8b04b; --gold2:#c8842a; --green:#7bc47f; --red:#e06b6b;
+  --chip:#2c231b;
+  --shadow:0 8px 30px rgba(0,0,0,.35);
+}
+@media (prefers-color-scheme: light){
+  :root{
+    --bg:#f6f1e8; --panel:#fffdf8; --panel2:#f2e9da; --line:#e2d5c1;
+    --ink:#241c14; --mut:#6b5c48; --dim:#94836c;
+    --chip:#efe5d4; --shadow:0 8px 30px rgba(120,90,40,.12);
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--bg); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",Segoe UI,Roboto,sans-serif;
+  line-height:1.5; -webkit-font-smoothing:antialiased;
+}
+a{color:var(--gold); text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:1180px; margin:0 auto; padding:0 18px}
+header.top{
+  padding:34px 0 18px; border-bottom:1px solid var(--line);
+  background:radial-gradient(1200px 300px at 20% -50%, rgba(232,176,75,.10), transparent);
+}
+.brand{display:flex; align-items:baseline; gap:12px; flex-wrap:wrap}
+h1{font-size:30px; margin:0; letter-spacing:.5px}
+h1 .amp{color:var(--gold)}
+.sub{color:var(--mut); margin:6px 0 0; font-size:14px}
+.updated{color:var(--dim); font-size:12.5px; margin-top:8px}
+.navlinks{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px}
+.guidelink{display:inline-block; background:var(--gold); color:#231a0e; font-weight:700;
+  font-size:13.5px; padding:9px 16px; border-radius:999px; text-decoration:none; box-shadow:var(--shadow)}
+.guidelink.alt{background:var(--panel); color:var(--ink); border:1px solid var(--line)}
+.guidelink:hover{text-decoration:none; filter:brightness(1.05)}
+
+.stats{display:flex; gap:12px; margin:22px 0; flex-wrap:wrap}
+.stat{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 16px; flex:0 1 200px}
+.stat .n{font-size:24px; font-weight:700; letter-spacing:.3px}
+.stat .l{color:var(--mut); font-size:12px; margin-top:2px}
+.stat.hl .n{color:var(--gold)}
+
+.records{display:grid; grid-template-columns:repeat(3,1fr); gap:14px; margin:8px 0 26px}
+.rec{
+  background:linear-gradient(180deg,var(--panel2),var(--panel));
+  border:1px solid var(--line); border-radius:16px; padding:16px 18px; position:relative; overflow:hidden;
+}
+.rec .tag{font-size:11.5px; letter-spacing:1.4px; text-transform:uppercase; color:var(--gold); font-weight:700}
+.rec .big{font-size:26px; font-weight:800; margin:6px 0 2px}
+.rec .desc{color:var(--mut); font-size:13px}
+.rec .desc b{color:var(--ink); font-weight:600}
+.rec .gav{position:absolute; right:-6px; bottom:-10px; font-size:64px; opacity:.08}
+
+.controls{
+  position:sticky; top:0; z-index:5; background:var(--bg);
+  padding:12px 0; border-bottom:1px solid var(--line); margin-bottom:4px;
+}
+.tabs{display:flex; gap:6px; margin-bottom:12px; flex-wrap:wrap}
+.tab{
+  background:var(--chip); border:1px solid var(--line); color:var(--mut);
+  padding:8px 14px; border-radius:999px; cursor:pointer; font-size:13.5px; font-weight:600;
+}
+.tab.on{background:var(--gold); color:#231a0e; border-color:var(--gold)}
+.filters{display:flex; gap:8px; flex-wrap:wrap; align-items:center}
+select,input[type=search]{
+  background:var(--panel); color:var(--ink); border:1px solid var(--line);
+  border-radius:10px; padding:8px 10px; font-size:13px; font-family:inherit;
+}
+input[type=search]{min-width:200px; flex:1}
+.count{color:var(--dim); font-size:12.5px; margin-left:auto}
+
+.tablewrap{overflow-x:auto; border:1px solid var(--line); border-radius:14px; margin:14px 0 30px}
+table{border-collapse:collapse; width:100%; font-size:13.5px; min-width:860px}
+thead th{
+  text-align:left; padding:11px 12px; background:var(--panel2); color:var(--mut);
+  font-weight:600; white-space:nowrap; cursor:pointer; border-bottom:1px solid var(--line); position:relative;
+}
+thead th.num{text-align:right}
+thead th:hover{color:var(--ink)}
+thead th .ar{opacity:.5; font-size:10px}
+tbody td{padding:10px 12px; border-bottom:1px solid var(--line); vertical-align:top}
+tbody tr:hover{background:var(--panel)}
+td.num{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+.rank{color:var(--dim); font-weight:700}
+.farm{font-weight:600}
+.farm small{display:block; color:var(--dim); font-weight:400; font-size:11.5px}
+.price{color:var(--gold); font-weight:700}
+.pill{display:inline-block; padding:2px 8px; border-radius:999px; background:var(--chip); font-size:11.5px; color:var(--mut); white-space:nowrap}
+.pill.geisha{background:rgba(232,176,75,.16); color:var(--gold)}
+.src{font-size:10.5px; color:var(--dim); border:1px solid var(--line); border-radius:6px; padding:1px 5px}
+
+.view{display:none}
+.view.on{display:block}
+
+.subbar{display:flex; gap:10px; align-items:center; margin-bottom:10px; flex-wrap:wrap}
+.period,.curtoggle{display:inline-flex; background:var(--chip); border:1px solid var(--line); border-radius:999px; padding:3px; gap:2px}
+.seg,.cur{padding:6px 13px; border-radius:999px; cursor:pointer; font-size:13px; font-weight:600; color:var(--mut); white-space:nowrap}
+.seg.on{background:var(--panel); color:var(--ink); box-shadow:var(--shadow)}
+.cur.on{background:var(--gold); color:#231a0e}
+.curtoggle{margin-left:auto}
+.fxnote{font-size:12px; color:var(--dim); align-self:center}
+
+/* calendar */
+.calhead{display:flex; align-items:baseline; gap:10px; margin:16px 0 10px}
+.calhead h2{font-size:17px; margin:0}
+.calhead .c{color:var(--dim); font-size:13px}
+.cal{display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:12px; margin-bottom:24px}
+.cev{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:14px 16px; position:relative; display:flex; flex-direction:column; gap:6px}
+.cev.next{border-color:var(--gold2)}
+.cev .d{font-size:13px; color:var(--gold); font-weight:700; letter-spacing:.3px}
+.cev .co{font-size:17px; font-weight:700}
+.cev .au{font-size:12.5px; color:var(--mut)}
+.cev .nt{font-size:12px; color:var(--dim)}
+.cev .cd{position:absolute; top:12px; right:14px; font-size:11.5px; font-weight:700; padding:3px 9px; border-radius:999px; background:var(--chip); color:var(--mut)}
+.cev .cd.soon{background:rgba(232,176,75,.18); color:var(--gold)}
+.cev.done{opacity:.62}
+.cev.done .d{color:var(--mut)}
+.type{font-size:10.5px; font-weight:700; padding:1px 6px; border-radius:6px; border:1px solid var(--line); color:var(--mut)}
+
+/* 月グリッド（実カレンダー） */
+.callegend{display:flex; gap:16px; flex-wrap:wrap; align-items:center; margin:6px 0 14px; font-size:12px; color:var(--mut)}
+.callegend i{display:inline-block; width:11px; height:11px; border-radius:3px; margin-right:5px; vertical-align:-1px}
+.callegend .g{background:var(--gold)} .callegend .p{background:var(--chip); border:1px solid var(--line)} .callegend .t{border:2px solid var(--gold); background:transparent}
+.calmonths{display:grid; grid-template-columns:repeat(auto-fill,minmax(340px,1fr)); gap:18px; margin-bottom:22px}
+.month{background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:16px 16px 12px}
+.month h3{margin:0 0 12px; font-size:16px; display:flex; align-items:center; gap:8px}
+.month h3 .badge{font-size:11px; font-weight:700; color:var(--gold); background:rgba(232,176,75,.15); padding:2px 9px; border-radius:999px}
+.dow{display:grid; grid-template-columns:repeat(7,1fr); gap:3px; margin-bottom:3px}
+.dow span{text-align:center; font-size:10.5px; color:var(--dim); font-weight:600}
+.dow span.sun{color:#d98a8a} .dow span.sat{color:#8aa9d9}
+.mgrid{display:grid; grid-template-columns:repeat(7,1fr); gap:3px}
+.day{min-height:42px; border-radius:8px; border:1px solid transparent; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:3px}
+.day.pad{visibility:hidden}
+.day .dn{font-size:12px; color:var(--mut)}
+.day.has{background:var(--panel2)}
+.day.has .dn{color:var(--ink); font-weight:700}
+.day.today{border-color:var(--gold); background:rgba(232,176,75,.10)}
+.day.today .dn{color:var(--gold); font-weight:800}
+.day .dots{display:flex; gap:3px; height:6px}
+.dot{width:6px; height:6px; border-radius:50%; display:inline-block}
+.dot.auc{background:var(--gold)} .dot.samp{background:#4aa4a0}
+/* 各月の読みやすいイベント一覧 */
+.mlist{margin-top:12px; border-top:1px solid var(--line); padding-top:6px; display:flex; flex-direction:column}
+.ev-row{display:flex; align-items:center; gap:9px; padding:8px 6px; border-radius:9px; text-decoration:none; color:inherit; font-size:13px}
+.ev-row + .ev-row{border-top:1px solid var(--line)}
+.ev-row:hover{background:var(--panel2)}
+.ev-row .rdot{width:9px; height:9px; border-radius:50%; flex:none}
+.ev-row .rdot.auc{background:var(--gold)} .ev-row .rdot.samp{background:#4aa4a0}
+.ev-row .rd{color:var(--mut); font-variant-numeric:tabular-nums; white-space:nowrap; min-width:66px; font-size:12px}
+.ev-row .rn{flex:1; font-weight:700; line-height:1.25}
+.ev-row .rn small{display:block; color:var(--dim); font-weight:400; font-size:11px}
+.ev-row .rc{font-size:11px; font-weight:700; padding:3px 9px; border-radius:999px; white-space:nowrap}
+.ev-row .rc.soon{background:rgba(232,176,75,.20); color:var(--gold)}
+.ev-row .rc.up{background:var(--chip); color:var(--mut)}
+.ev-row .rc.done{background:var(--chip); color:var(--dim)}
+.ev-row.past{opacity:.55}
+.callegend .s{background:#4aa4a0}
+
+.groups{margin:14px 0 30px}
+.grp{background:var(--panel); border:1px solid var(--line); border-radius:14px; margin-bottom:12px; overflow:hidden}
+.grp h3{margin:0; padding:13px 16px; font-size:15px; cursor:pointer; display:flex; align-items:center; gap:10px}
+.grp h3 .flag{font-size:13px; color:var(--mut); font-weight:500; margin-left:auto}
+.grp .body{display:none; border-top:1px solid var(--line)}
+.grp.open .body{display:block}
+
+.events{margin:14px 0 30px}
+.ev{display:flex; gap:12px; align-items:center; padding:12px 14px; background:var(--panel); border:1px solid var(--line); border-radius:12px; margin-bottom:9px}
+.ev .ic{font-size:20px}
+.ev .txt{flex:1}
+.ev .txt b{color:var(--ink)}
+.ev .badge{font-size:11px; font-weight:700; padding:3px 8px; border-radius:999px}
+.ev .badge.record{background:rgba(232,176,75,.18); color:var(--gold)}
+.ev .badge.new{background:rgba(123,196,127,.16); color:var(--green)}
+
+footer{border-top:1px solid var(--line); padding:22px 0 40px; color:var(--dim); font-size:12.5px}
+footer b{color:var(--mut)}
+.empty{padding:40px; text-align:center; color:var(--dim)}
+@media (max-width:820px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .records{grid-template-columns:1fr}
+  h1{font-size:24px}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">
+    <h1>Coffee Auction Index <span class="amp">☕</span></h1>
+  </div>
+  <p class="sub">世界のスペシャルティコーヒー・オークションの落札結果を横断してまとめる索引。<br>Cup of Excellence を自動巡回し、Best of Panama などを収録。</p>
+  <div class="updated" id="updated"></div>
+  <div class="navlinks">
+    <a class="guidelink" href="./guide.html">📖 オークション購買ガイド</a>
+    <a class="guidelink alt" href="./history.html">🧾 落札・購買履歴</a>
+  </div>
+</div></header>
+
+<div class="wrap">
+  <div class="stats" id="stats"></div>
+  <div class="records" id="records"></div>
+
+  <div id="view-calendar"><div id="calendar"></div></div>
+</div>
+
+<footer><div class="wrap">
+  <p><b>データ源:</b> <span id="srcnote"></span></p>
+  <p id="fxnote"></p>
+  <p>価格は各オークションの公表結果のスナップショットです。COEは公式結果ページを自動巡回、Best of Panama等は報道・公式発表ベースのキュレーションです。日本円は参考値（当日の為替レートで換算）。正確な取引条件は各オークション・出品者にご確認ください。</p>
+  <p id="failnote"></p>
+</div></footer>
+
+<script>
+window.__DATA__ = /*__DATA__*/null;
+(function(){
+  const D = window.__DATA__;
+  if(!D){document.body.innerHTML='<div class="empty">データがありません。python main.py を実行してください。</div>';return;}
+  const KGLB = 0.45359237;
+  const $ = s => document.querySelector(s);
+  const esc = s => (s==null?'':String(s)).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  const isGeisha = v => /geisha|gesha/i.test(v||'');
+
+  // ---- 通貨（USD / JPY 換算）----
+  let CUR = 'USD';
+  const RATE = (D.fx && D.fx.jpy) || 150;
+  const unit = () => CUR==='JPY' ? '¥' : '$';
+  const money = (n, dec) => {
+    if(n==null) return '—';
+    if(CUR==='JPY') return '¥'+Math.round(n*RATE).toLocaleString('en-US');
+    return '$'+Number(n).toLocaleString('en-US',{minimumFractionDigits:dec?2:0,maximumFractionDigits:dec?2:0});
+  };
+  const price = n => money(n, true);    // ポンド単価（USDは小数2桁 / JPYは整数）
+  const total = n => money(n, false);   // 総額（整数）
+
+  const CY = D.stats.current_year;
+
+  $('#updated').textContent = '最終更新: '+D.updated;
+
+  // ---- stats（通貨で再描画）----
+  const s=D.stats;
+  function renderStats(){
+    $('#stats').innerHTML = [
+      ['収録国', s.countries],
+      ['オークション', s.auctions],
+    ].map(([l,n,hl])=>`<div class="stat ${hl?'hl':''}"><div class="n">${n}</div><div class="l">${l}</div></div>`).join('');
+  }
+
+  // ---- records（通貨で再描画）----
+  const rc=D.records;
+  const recCard=(tag,gav,lot,valfn,desc)=> lot?`<div class="rec"><div class="tag">${tag}</div>
+     <div class="big">${valfn(lot)}</div>
+     <div class="desc">${desc(lot)}</div><div class="gav">${gav}</div></div>`:'';
+  function renderRecords(){
+    $('#records').innerHTML = [
+      recCard('最高落札単価','🔨',rc.price,l=>price(l.price_lb)+' /lb',
+        l=>`<b>${esc(l.farm)}</b> · ${esc(l.variety||'')} ${esc(l.process||'')}<br>${esc(l.auction)} ${esc(l.country)} ${l.year}`),
+      recCard('最高スコア','⭐',rc.score,l=>l.score!=null?l.score.toFixed(2):'—',
+        l=>`<b>${esc(l.farm)}</b> · ${esc(l.variety||'')}<br>${esc(l.auction)} ${esc(l.country)} ${l.year}`),
+      recCard('最高総額','💰',rc.total,l=>total(l.total_value),
+        l=>`<b>${esc(l.farm)}</b> · ${esc(l.weight_lb?Math.round(l.weight_lb)+' lb':'')}<br>${esc(l.auction)} ${esc(l.country)} ${l.year}`),
+    ].join('');
+  }
+
+  // ---- calendar（実カレンダー：月グリッド表示）----
+  const DOW=['日','月','火','水','木','金','土'];
+  const dayDiff=(a,b)=>Math.round((Date.parse(a+'T00:00:00Z')-Date.parse(b+'T00:00:00Z'))/86400000);
+  function renderCalendar(){
+    const sched=(D.schedule||[]);
+    const today=D.today;
+    // 今年（当年）のイベントのみ表示
+    const CYS=String(CY);
+    const dated=sched.filter(e=>e.date && e.date.slice(0,4)===CYS).sort((a,b)=>a.date<b.date?-1:1);
+    const tbd=sched.filter(e=>!e.date && String(e.year)===CYS);
+
+    // 日付→イベント、月(YYYY-MM)一覧
+    const byDate={};
+    dated.forEach(e=>{(byDate[e.date]=byDate[e.date]||[]).push(e);});
+    const months=[...new Set(dated.map(e=>e.date.slice(0,7)))].sort();
+
+    let html = `<div class="callegend">
+      <span><i class="g"></i>オークション日</span><span><i class="s"></i>生豆サンプル期限(目安)</span>
+      <span><i class="p"></i>終了</span><span><i class="t"></i>本日 (${fmtJ(today)})</span></div><div class="calmonths">`;
+
+    months.forEach(ym=>{
+      const [y,m]=ym.split('-').map(Number);
+      const startDow=new Date(Date.UTC(y,m-1,1)).getUTCDay();
+      const ndays=new Date(Date.UTC(y,m,0)).getUTCDate();
+      const mevs=dated.filter(e=>e.date.slice(0,7)===ym);  // 昇順（datedがソート済）
+      html+=`<div class="month"><h3>${y}年${m}月 <span class="badge">${mevs.length}件</span></h3>
+        <div class="dow">${DOW.map((d,i)=>`<span class="${i===0?'sun':i===6?'sat':''}">${d}</span>`).join('')}</div>
+        <div class="mgrid">`;
+      for(let i=0;i<startDow;i++) html+='<div class="day pad"></div>';
+      for(let d=1;d<=ndays;d++){
+        const ds=`${ym}-${String(d).padStart(2,'0')}`;
+        const evs=byDate[ds]||[];
+        const isToday=ds===today;
+        const hasAuc=evs.some(e=>e.kind!=='sample'), hasSamp=evs.some(e=>e.kind==='sample');
+        const cls=['day']; if(evs.length)cls.push('has'); if(isToday)cls.push('today');
+        const dots=evs.length?`<span class="dots">${hasAuc?'<i class="dot auc"></i>':''}${hasSamp?'<i class="dot samp"></i>':''}</span>`:'';
+        html+=`<div class="${cls.join(' ')}"><span class="dn">${d}</span>${dots}</div>`;
+      }
+      html+='</div><div class="mlist">';
+      mevs.forEach(e=>{
+        const isSample=e.kind==='sample';
+        const dd=dayDiff(e.date,today);
+        const dow=DOW[new Date(e.date+'T00:00:00Z').getUTCDay()];
+        const dstr=`${+e.date.slice(5,7)}/${+e.date.slice(8,10)}(${dow})`;
+        const cd=dd<0?'済':(dd===0?'本日':`あと${dd}日`);
+        const cdcls=dd<0?'done':(dd<=30?'soon':'up');
+        const name=isSample?'生豆サンプル期限':esc(e.auction);
+        const sub=isSample?`<small>${esc(e.country)} · 目安</small>`:`<small>${esc(e.country)}</small>`;
+        const tip=`${esc(e.auction)} ${e.year}${e.note?' — '+esc(e.note):''}`;
+        const inner=`<i class="rdot ${isSample?'samp':'auc'}"></i><span class="rd">${dstr}</span><span class="rn">${name}${sub}</span><span class="rc ${cdcls}">${cd}</span>`;
+        html+= e.url
+          ? `<a class="ev-row ${dd<0?'past':''}" href="${esc(e.url)}" target="_blank" rel="noopener" title="${tip}">${inner}</a>`
+          : `<span class="ev-row ${dd<0?'past':''}" title="${tip}">${inner}</span>`;
+      });
+      html+='</div></div>';
+    });
+    html+='</div>';
+
+    if(tbd.length){
+      html+=`<div class="calhead"><h2>❓ 日程未定 (TBD)</h2><span class="c">${tbd.length}件</span></div>`;
+      html+=`<div class="cal">${tbd.map(e=>`<div class="cev"><span class="cd">TBD</span>
+        <div class="co">${esc(e.country)} <span class="type">${esc(e.type)}</span></div>
+        <div class="au">${esc(e.auction)} ${e.year}</div>
+        ${e.note?`<div class="nt">${esc(e.note)}</div>`:''}</div>`).join('')}</div>`;
+    }
+    $('#calendar').innerHTML=html;
+  }
+  function fmtJ(d){const p=d.split('-');return `${p[0]}年${+p[1]}月${+p[2]}日`;}
+
+  function render(){
+    renderStats(); renderRecords(); renderCalendar();
+  }
+
+  // ---- footer ----
+  const srcCounts={};
+  D.lots.forEach(l=>srcCounts[l.source]=(srcCounts[l.source]||0)+1);
+  $('#srcnote').innerHTML=Object.entries(srcCounts).map(([k,v])=>`<b>${esc(k)}</b> ${v}`).join(' · ');
+  if(D.fx) $('#fxnote').innerHTML = `為替換算: 1 USD = <b>${D.fx.jpy}</b> JPY <span style="color:var(--dim)">(${D.fx.asof||'—'}${D.fx.live?'':' · フォールバック値'})</span>`;
+  if(D.failed&&D.failed.length)$('#failnote').textContent='取得に失敗したページ: '+D.failed.length+'件';
+
+  render();
+})();
+</script>
+</body>
+</html>

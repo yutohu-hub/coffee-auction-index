@@ -1,0 +1,69 @@
+{
+  "_comment": "自動巡回では取りにくいオークション（プライベート/生産者/独自基盤）の検証済みデータ。報道・公式発表ベース。source=seed。COEはスクレイパーが自動取得するのでここには入れない。ヘッドライン（記録ロット）中心の収録。",
+  "lots": [
+    {
+      "source": "seed", "auction": "Best of Panama", "country": "Panama", "year": 2025,
+      "category": "Geisha Washed", "rank": "1", "farm": "Hacienda La Esmeralda",
+      "variety": "Geisha", "process": "Washed", "price_lb": 13705, "buyer": "Dubai (UAE)",
+      "note": "世界記録更新。$30,204/kg。Boquete, Chiriquí。",
+      "url": "https://bestofpanama.org/"
+    },
+    {
+      "source": "seed", "auction": "Best of Panama", "country": "Panama", "year": 2025,
+      "category": "Geisha Natural", "rank": "1", "farm": "Hacienda La Esmeralda",
+      "variety": "Geisha", "process": "Natural", "price_lb": 10709, "buyer": "China",
+      "note": "$23,608/kg。",
+      "url": "https://bestofpanama.org/"
+    },
+    {
+      "source": "seed", "auction": "Best of Panama", "country": "Panama", "year": 2025,
+      "category": "Varietal", "rank": "1", "farm": "—",
+      "variety": "Laurina", "process": "Washed", "price_lb": 3647, "buyer": "Beijing (China)",
+      "note": "Laurina品種カテゴリ首位。$8,040/kg。",
+      "url": "https://bestofpanama.org/"
+    },
+    {
+      "source": "seed", "auction": "Best of Panama", "country": "Panama", "year": 2024,
+      "category": "Geisha Natural", "rank": "1", "farm": "Lamastus Family Estates (Elida)",
+      "variety": "Geisha", "process": "Natural", "price_lb": 4542, "buyer": "Saza Coffee (日本連合)",
+      "note": "Elida Geisha Natural Vuelta。$10,013/kg。総額$1,383,719・平均$1,383/kg・200超のバイヤー・18,000超の入札。",
+      "url": "https://bestofpanama.org/"
+    },
+    {
+      "source": "seed", "auction": "Best of Panama", "country": "Panama", "year": 2024,
+      "category": "Geisha Washed", "rank": "1", "farm": "Adaura Coffee",
+      "variety": "Geisha", "process": "Washed", "price_lb": 4537, "buyer": "",
+      "note": "Kaizen Washed Geisha。$10,002/kg（第2位）。",
+      "url": "https://bestofpanama.org/"
+    },
+    {
+      "source": "seed", "auction": "Gesha Village Auction", "country": "Ethiopia", "year": 2022,
+      "category": "Honey", "rank": "1", "farm": "Gesha Village Coffee Estate",
+      "variety": "Geisha", "process": "Honey", "price_lb": 254, "total_value": 33000, "buyer": "日本のバイヤー連合",
+      "note": "第6回オークション(6/28)。アフリカ産コーヒー史上最高値。総額$283,481・平均$82.42/lb・26ロット。総額は約$33,000。",
+      "url": "https://www.geshavillage.com/auction/"
+    },
+    {
+      "source": "seed", "auction": "Colombia Land of Diversity", "country": "Colombia", "year": 2023,
+      "category": "Overall", "rank": "1", "farm": "Domingo Torres",
+      "variety": "", "process": "", "price_lb": 120.50, "buyer": "Koffee Kult (USA)",
+      "note": "第8回(5月・Bucaramanga)。コロンビア過去最高値。平均$22.77/lb・27ロット。Ragonvalia, Norte de Santander。",
+      "url": "https://colombialandofdiversity.com/"
+    },
+    {
+      "source": "seed", "auction": "Best of Yemen", "country": "Yemen", "year": 2025,
+      "category": "Yemenia Natural", "rank": "1", "farm": "Yahya Al Faqeeh",
+      "variety": "Yemenia", "process": "Natural", "price_lb": 851.7, "buyer": "Black Sip Roastery (Saudi Arabia)",
+      "note": "Al Jidan, Sana'a。イエメンコーヒー世界最高値 $1,878/kg（3年連続の記録更新）。2025の全ロットはV-Auction基盤。",
+      "url": "https://qimacoffee.v-auction.com/en/"
+    },
+    {
+      "source": "seed", "auction": "Cumbres de Colombia (CGLE)", "country": "Colombia", "year": 2025,
+      "category": "Laurina Natural", "rank": "1", "farm": "Café Granja La Esperanza",
+      "variety": "Laurina", "process": "Natural", "price_lb": 995.2, "total_value": 13137.30,
+      "weight_lb": 13.2, "score": 94.25, "buyer": "Brew92 (Saudi Arabia)",
+      "note": "Mavicure Hills（第5回・25ロット）。コロンビア史上最高値 $2,194.1/kg・94.25点。Trujillo, Valle del Cauca。CGLEは2021年にコロンビア初の私営オークションを開始。",
+      "url": "https://cafegranjalaesperanza.com/"
+    }
+  ]
+}

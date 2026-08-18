@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>落札・購買履歴 — Coffee Auction Index</title>
+<meta name="description" content="Cup of Excellence・Best of Panama など各オークションの落札（購買）履歴。誰がどのロットをいくらで落札したかを横断検索。">
+<style>
+:root{--bg:#14100d;--panel:#1e1813;--panel2:#271f18;--line:#3a2f25;--ink:#f3ece2;--mut:#b7a894;--dim:#8a7864;--gold:#e8b04b;--gold2:#c8842a;--teal:#4aa4a0;--chip:#2c231b;--shadow:0 8px 30px rgba(0,0,0,.35)}
+@media (prefers-color-scheme: light){:root{--bg:#f6f1e8;--panel:#fffdf8;--panel2:#f2e9da;--line:#e2d5c1;--ink:#241c14;--mut:#6b5c48;--dim:#94836c;--chip:#efe5d4;--shadow:0 8px 30px rgba(120,90,40,.12)}}
+:root[data-theme="dark"]{--bg:#14100d;--panel:#1e1813;--panel2:#271f18;--line:#3a2f25;--ink:#f3ece2;--mut:#b7a894;--dim:#8a7864;--chip:#2c231b}
+:root[data-theme="light"]{--bg:#f6f1e8;--panel:#fffdf8;--panel2:#f2e9da;--line:#e2d5c1;--ink:#241c14;--mut:#6b5c48;--dim:#94836c;--chip:#efe5d4}
+*{box-sizing:border-box} html,body{margin:0}
+body{background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Noto Sans JP",Segoe UI,Roboto,sans-serif; line-height:1.6; -webkit-font-smoothing:antialiased}
+a{color:var(--gold); text-decoration:none} a:hover{text-decoration:underline}
+.wrap{max-width:1180px; margin:0 auto; padding:0 18px}
+header.top{padding:26px 0 18px; border-bottom:1px solid var(--line); background:radial-gradient(1100px 280px at 15% -60%, rgba(232,176,75,.12), transparent)}
+.back{font-size:13px; color:var(--mut)}
+h1{font-size:27px; margin:10px 0 6px}
+.lead{color:var(--mut); font-size:14.5px; margin:0}
+.stats{display:flex; gap:12px; margin:18px 0; flex-wrap:wrap}
+.stat{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:12px 16px; flex:0 1 180px}
+.stat .n{font-size:22px; font-weight:800} .stat .n.gold{color:var(--gold)} .stat .l{font-size:12px; color:var(--mut)}
+h2{font-size:18px; margin:26px 0 12px}
+.buyers{display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:10px; margin-bottom:8px}
+.bcard{background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:11px 14px; cursor:pointer}
+.bcard:hover{border-color:var(--gold2)}
+.bcard .bn{font-weight:700; font-size:13.5px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.bcard .bm{font-size:12px; color:var(--mut); margin-top:2px}
+.bcard .bm b{color:var(--gold)}
+.controls{position:sticky; top:0; z-index:5; background:var(--bg); padding:12px 0 10px; margin-bottom:6px}
+.filters{background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:14px; display:flex; flex-direction:column; gap:12px; box-shadow:var(--shadow)}
+.frow{display:grid; grid-template-columns:repeat(4,1fr); gap:10px}
+@media(max-width:720px){.frow{grid-template-columns:repeat(2,1fr)}}
+.fl{display:flex; flex-direction:column; gap:5px; min-width:0}
+.fl>span{font-size:11px; font-weight:700; color:var(--dim); letter-spacing:.5px; padding-left:2px}
+select,input[type=search]{width:100%; background:var(--panel2); color:var(--ink); border:1px solid var(--line); border-radius:10px; padding:10px 12px; font-size:13.5px; font-family:inherit}
+select:focus,input[type=search]:focus{outline:none; border-color:var(--gold)}
+.fbot{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+.fbot input[type=search]{flex:1; min-width:180px}
+.curtoggle{display:inline-flex; background:var(--panel2); border:1px solid var(--line); border-radius:999px; padding:3px}
+.cur{padding:7px 13px; border-radius:999px; cursor:pointer; font-size:12.5px; font-weight:700; color:var(--mut); white-space:nowrap}
+.cur.on{background:var(--gold); color:#231a0e}
+.fxline{font-size:11.5px; color:var(--dim); margin-top:2px}
+.fxline b{color:var(--mut)} .fxline .live{color:var(--teal); font-weight:700}
+.count{color:var(--mut); font-size:13px; font-weight:700; white-space:nowrap}
+.clear{cursor:pointer; color:var(--gold); font-size:12.5px; font-weight:700; white-space:nowrap; padding:9px 12px; border:1px solid var(--line); border-radius:10px}
+.clear:hover{background:var(--panel2)}
+.tablewrap{overflow-x:auto; border:1px solid var(--line); border-radius:14px; margin:14px 0 30px}
+table{border-collapse:collapse; width:100%; font-size:13px; min-width:900px}
+thead th{text-align:left; padding:11px 12px; background:var(--panel2); color:var(--mut); font-weight:600; white-space:nowrap; cursor:pointer; border-bottom:1px solid var(--line); position:sticky; top:0}
+thead th.num{text-align:right} thead th:hover{color:var(--ink)}
+tbody td{padding:9px 12px; border-bottom:1px solid var(--line); vertical-align:top}
+tbody tr:hover{background:var(--panel)}
+td.num{text-align:right; font-variant-numeric:tabular-nums; white-space:nowrap}
+.rank{color:var(--dim); font-weight:700} .farm{font-weight:600}
+.price{color:var(--gold); font-weight:700}
+.buyer{max-width:280px}
+.pill{display:inline-block; padding:2px 8px; border-radius:999px; background:var(--chip); font-size:11px; color:var(--mut); white-space:nowrap}
+.pill.geisha{background:rgba(232,176,75,.16); color:var(--gold)}
+.src{font-size:10px; color:var(--dim); border:1px solid var(--line); border-radius:6px; padding:1px 5px}
+.empty{padding:40px; text-align:center; color:var(--dim)}
+.note{color:var(--dim); font-size:12px; margin:6px 0 0}
+.yearhead{display:flex; align-items:baseline; gap:12px; margin:26px 0 12px; padding-bottom:8px; border-bottom:2px solid var(--line)}
+.yearhead .y{font-size:24px; font-weight:800; letter-spacing:.5px}
+.yearhead .c{font-size:13px; color:var(--dim)}
+.grp{background:var(--panel); border:1px solid var(--line); border-radius:14px; margin-bottom:10px; overflow:hidden}
+.grp>h3{margin:0; padding:13px 16px; font-size:14.5px; cursor:pointer; display:flex; align-items:center; gap:10px; font-weight:700}
+.grp>h3 .tw2{margin-left:auto; font-size:12.5px; color:var(--mut); font-weight:500; white-space:nowrap}
+.grp>h3 .ar{color:var(--dim); font-size:11px; transition:transform .15s}
+.grp.open>h3 .ar{transform:rotate(90deg)}
+.grp .body{display:none; border-top:1px solid var(--line)}
+.grp.open .body{display:block}
+.grp .body td.buyer{max-width:none}
+/* オークション落札詳細サマリー */
+.detail{display:flex; flex-wrap:wrap; gap:10px 20px; padding:13px 16px; background:var(--panel2)}
+.di{display:flex; flex-direction:column; min-width:66px}
+.di span{font-size:10.5px; color:var(--dim); font-weight:700; letter-spacing:.4px}
+.di b{font-size:15px; margin-top:1px}
+.di b.gold{color:var(--gold)}
+.farm small{display:block; color:var(--dim); font-weight:400; font-size:11px; margin-top:1px}
+td.wt{white-space:nowrap; color:var(--mut)}
+footer{border-top:1px solid var(--line); margin-top:20px; padding:20px 0 46px; color:var(--dim); font-size:12.5px}
+@media(max-width:640px){.stat{flex:1 1 45%}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="back" href="./index.html">← Coffee Auction Index にもどる</a>
+  <h1>落札・購買履歴 🧾</h1>
+  <p class="lead">各オークションの落札記録を横断。<b>誰が・どのロットを・いくらで</b>落札したかを検索できます（本サイト収録の公表データ）。</p>
+  <div class="stats" id="stats"></div>
+</div></header>
+
+<div class="wrap">
+  <div class="controls">
+    <div class="filters">
+      <div class="frow">
+        <label class="fl"><span>オークション</span><select id="f-auction"></select></label>
+        <label class="fl"><span>国</span><select id="f-country"></select></label>
+        <label class="fl"><span>年</span><select id="f-year"></select></label>
+        <label class="fl"><span>品種</span><select id="f-variety"></select></label>
+      </div>
+      <div class="fbot">
+        <input type="search" id="f-q" placeholder="🔎 バイヤー・農園で検索…">
+        <div class="curtoggle" id="curtoggle"><span class="cur on" data-c="USD">$ USD</span><span class="cur" data-c="JPY">¥ JPY</span></div>
+        <span class="clear" id="clear">クリア</span>
+        <span class="count" id="count"></span>
+      </div>
+      <div class="fxline" id="fxline"></div>
+    </div>
+  </div>
+  <div id="groups"></div>
+</div>
+
+<footer><div class="wrap">価格・落札者は各オークションの公表結果のスナップショットです。COEは公式結果ページの自動巡回、その他は報道・公式発表ベースを含みます。<br><a href="./index.html">← インデックス</a> ・ <a href="./guide.html">購買ガイド</a></div></footer>
+
+<script>
+(function(){
+  try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}
+  const $=s=>document.querySelector(s);
+  const esc=s=>(s==null?'':String(s)).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  // 通貨（USD / JPY 換算）
+  let CUR='USD', RATE=150;
+  const unit=()=>CUR==='JPY'?'¥':'$';
+  const money=(n,dec)=>{ if(n==null)return '—';
+    if(CUR==='JPY')return '¥'+Math.round(n*RATE).toLocaleString('en-US');
+    return '$'+Number(n).toLocaleString('en-US',{minimumFractionDigits:dec?2:0,maximumFractionDigits:dec?2:0}); };
+  const fmt=n=>money(n,false);   // 総額（整数）
+  const fmt2=n=>money(n,true);   // 単価（USDは小数2桁 / JPYは整数）
+  const perlb=n=>n?unit()+Math.round(CUR==='JPY'?n*RATE:n).toLocaleString('en-US')+'/lb':'—'; // 見出し用
+  const isGeisha=v=>/geisha|gesha/i.test(v||'');
+  const fmtDate=d=>{const p=String(d).split('-');return p.length===3?`${p[0]}年${+p[1]}月${+p[2]}日`:d;};
+  let SCHED_DATE={};
+
+  fetch('./data.json').then(r=>r.json()).then(D=>{
+    // 落札者があるロットを購買履歴の対象に（COE/mCultivo/seed 等）
+    const lots=(D.lots||[]);
+    const uniq=a=>[...new Set(a.filter(Boolean))].sort();
+    RATE=(D.fx && D.fx.jpy) || 150;
+    // 開催日ルックアップ（schedule のオークション日を auction×国×年 で索引化）
+    (D.schedule||[]).forEach(e=>{ if(e.date && e.kind!=='sample')
+      SCHED_DATE[`${e.auction}||${e.country||''}||${e.year}`]=e.date; });
+
+    // ---- stats（落札総額は通貨で再描画）----
+    const buyersAll=uniq(lots.map(l=>l.buyer));
+    const totalVal=lots.reduce((s,l)=>s+(l.total_value||0),0);
+    function renderStats(){
+      const tv=CUR==='JPY'?totalVal*RATE:totalVal;
+      $('#stats').innerHTML=[
+        ['落札ロット', lots.length.toLocaleString()],
+        ['バイヤー数', buyersAll.length.toLocaleString()],
+        ['オークション', uniq(lots.map(l=>l.auction)).length],
+        ['落札総額', unit()+Math.round(tv/1000).toLocaleString()+'K', true],
+      ].map(([l,n,g])=>`<div class="stat"><div class="n ${g?'gold':''}">${n}</div><div class="l">${l}</div></div>`).join('');
+    }
+
+    // ---- filters ----
+    const fill=(id,arr,label)=>{$(id).innerHTML=`<option value="">${label}</option>`+arr.map(v=>`<option>${esc(v)}</option>`).join('');};
+    fill('#f-auction',uniq(lots.map(l=>l.auction)),'全オークション');
+    fill('#f-country',uniq(lots.map(l=>l.country)),'全ての国');
+    fill('#f-year',uniq(lots.map(l=>String(l.year))).reverse(),'全ての年');
+    const vcount={}; lots.forEach(l=>{if(l.variety)vcount[l.variety]=(vcount[l.variety]||0)+1;});
+    fill('#f-variety',Object.keys(vcount).filter(v=>vcount[v]>=5).sort(),'全品種');
+
+    function filtered(){
+      const q=$('#f-q').value.trim().toLowerCase();
+      const a=$('#f-auction').value,c=$('#f-country').value,y=$('#f-year').value,v=$('#f-variety').value;
+      return lots.filter(l=>{
+        if(a&&l.auction!==a)return false;
+        if(c&&l.country!==c)return false;
+        if(y&&String(l.year)!==y)return false;
+        if(v&&l.variety!==v)return false;
+        if(q&&!((l.buyer||'').toLowerCase().includes(q)||(l.farm||'').toLowerCase().includes(q)))return false;
+        return true;
+      });
+    }
+    // オークションの落札詳細（サマリー＋ロット表）
+    function lotTable(g){
+      const rows=g.slice().sort((a,b)=>(b.price_lb||0)-(a.price_lb||0));
+      const priced=g.filter(l=>l.price_lb);
+      const totalV=g.reduce((s,l)=>s+(l.total_value||0),0);
+      const avg=priced.length?priced.reduce((s,l)=>s+l.price_lb,0)/priced.length:0;
+      const top=rows[0]||{};
+      const buyers=new Set(g.map(l=>(l.buyer||'').trim()).filter(b=>b&&b!=='—')).size;
+      const date=SCHED_DATE[`${g[0].auction}||${g[0].country||''}||${g[0].year}`];
+      const di=(l,v,gold)=>`<div class="di"><span>${l}</span><b class="${gold?'gold':''}">${v}</b></div>`;
+      const summary=`<div class="detail">
+        ${date?di('開催日',fmtDate(date)):''}
+        ${di('ロット数',g.length)}
+        ${totalV?di('落札総額',fmt(totalV)):''}
+        ${avg?di('平均単価',perlb(avg)):''}
+        ${top.price_lb?di('最高単価',perlb(top.price_lb),true):''}
+        ${di('落札者数',buyers||'—')}
+      </div>`;
+      const kg=n=>n?' <small>('+(n*0.4536).toFixed(1)+'kg)</small>':'';
+      const table=`<div class="tablewrap"><table><thead><tr>
+        <th>Rank</th><th>農園 / カテゴリ</th><th>品種</th><th>精製</th><th class="num">Score</th><th class="num">重量</th><th class="num">${unit()}/lb</th><th class="num">総額</th><th>落札者</th>
+        </tr></thead><tbody>${rows.map(l=>`<tr>
+          <td class="rank">${esc(l.rank||'')}</td>
+          <td class="farm">${esc(l.farm||'—')}${(l.category||l.note)?`<small>${esc([l.category,l.note].filter(Boolean).join(' · '))}</small>`:''}</td>
+          <td><span class="pill ${isGeisha(l.variety)?'geisha':''}">${esc(l.variety||'—')}</span></td>
+          <td>${esc(l.process||'—')}</td>
+          <td class="num">${l.score!=null?Number(l.score).toFixed(2):'—'}</td>
+          <td class="num wt">${l.weight_lb?Math.round(l.weight_lb)+'lb'+kg(l.weight_lb):'—'}</td>
+          <td class="num price">${l.price_lb!=null?fmt2(l.price_lb):'—'}</td>
+          <td class="num">${fmt(l.total_value)}</td>
+          <td class="buyer">${l.url?`<a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.buyer||'—')}</a>`:esc(l.buyer||'—')}</td>
+        </tr>`).join('')}</tbody></table></div>`;
+      return summary+table;
+    }
+
+    let GROUPS={};
+    function render(){
+      renderStats();
+      const rows=filtered();
+      $('#count').textContent=rows.length.toLocaleString()+' 件';
+      // 年度 → オークション(auction × 国) でまとめる
+      const byYear={};
+      rows.forEach(l=>{
+        const gk=`${l.auction}||${l.country||''}`;
+        (byYear[l.year]=byYear[l.year]||{});
+        (byYear[l.year][gk]=byYear[l.year][gk]||[]).push(l);
+      });
+      const years=Object.keys(byYear).map(Number).sort((a,b)=>b-a);
+      GROUPS={}; let gid=0; let html='';
+      years.forEach(y=>{
+        const groups=byYear[y];
+        const gkeys=Object.keys(groups).sort((a,b)=>
+          Math.max(...groups[b].map(x=>x.price_lb||0))-Math.max(...groups[a].map(x=>x.price_lb||0)));
+        const nlots=gkeys.reduce((s,k)=>s+groups[k].length,0);
+        html+=`<div class="yearhead"><span class="y">${y}</span><span class="c">${gkeys.length}オークション · ${nlots}ロット</span></div>`;
+        gkeys.forEach(gk=>{
+          const g=groups[gk]; const [au,co]=gk.split('||');
+          const top=Math.max(...g.map(x=>x.price_lb||0));
+          const id='g'+(gid++); GROUPS[id]=g;
+          html+=`<div class="grp" data-id="${id}"><h3><span class="ar">▶</span>${esc(au)}${co?` — ${esc(co)}`:''} <span class="src">${esc(g[0].source)}</span>
+            <span class="tw2">${g.length}ロット · 最高 ${perlb(top)}</span></h3><div class="body"></div></div>`;
+        });
+      });
+      $('#groups').innerHTML= html || `<div class="empty">該当する落札がありません</div>`;
+      $('#groups').querySelectorAll('.grp>h3').forEach(h=>h.onclick=()=>{
+        const grp=h.parentElement, body=grp.querySelector('.body');
+        if(!body.innerHTML) body.innerHTML=lotTable(GROUPS[grp.dataset.id]);
+        grp.classList.toggle('open');
+      });
+      // 絞り込みでグループが少ない時は自動展開
+      if(Object.keys(GROUPS).length && Object.keys(GROUPS).length<=4)
+        $('#groups').querySelectorAll('.grp>h3').forEach(h=>h.click());
+    }
+    ['#f-auction','#f-country','#f-year','#f-variety'].forEach(s=>$(s).onchange=render);
+    $('#f-q').oninput=render;
+    $('#clear').onclick=()=>{['#f-auction','#f-country','#f-year','#f-variety'].forEach(s=>$(s).value='');$('#f-q').value='';render();};
+    // 通貨トグル
+    $('#curtoggle').querySelectorAll('.cur').forEach(el=>el.onclick=()=>{
+      $('#curtoggle').querySelectorAll('.cur').forEach(x=>x.classList.remove('on'));
+      el.classList.add('on'); CUR=el.dataset.c; render();
+    });
+    render();
+
+    // ---- 為替をリアルタイム更新（読み込み時＋10分ごと。失敗時はビルド時レート）----
+    let FX_ASOF=(D.fx && D.fx.asof)||'', FX_LIVE=false;
+    function fxNote(){
+      const jpy=RATE.toLocaleString('en-US',{maximumFractionDigits:2});
+      $('#fxline').innerHTML = `為替換算: <b>1 USD = ¥${jpy}</b> · `
+        + (FX_LIVE ? `<span class="live">● 最新</span> ${FX_ASOF}` : `ビルド時 ${FX_ASOF||'—'}`);
+    }
+    function refreshRate(){
+      fetch('https://api.frankfurter.dev/v1/latest?from=USD&to=JPY',{cache:'no-store'})
+        .then(r=>r.json()).then(j=>{
+          if(j && j.rates && j.rates.JPY){
+            RATE=j.rates.JPY; FX_ASOF=j.date||FX_ASOF; FX_LIVE=true; fxNote();
+            if(CUR==='JPY') render();   // JPY表示中なら即反映
+          }
+        }).catch(()=>{});
+    }
+    fxNote(); refreshRate();
+    setInterval(refreshRate, 10*60*1000);
+  }).catch(e=>{
+    document.querySelector('.wrap').innerHTML='<div class="empty">データを読み込めませんでした（data.json）。</div>';
+  });
+})();
+</script>
+</body>
+</html>

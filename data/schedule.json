@@ -1,0 +1,37 @@
+{
+  "_comment": "オークション日程（カレンダー用）。公式スケジュール・報道ベース。dateはオークション実施日(UTC想定)。date が空/TBD の場合は日程未定として扱う。",
+  "events": [
+    {"date": "2026-06-25", "auction": "Cup of Excellence", "type": "COE", "country": "Nicaragua", "year": 2026, "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/", "note": "国際オークション"},
+    {"date": "2026-07-02", "auction": "Cup of Excellence", "type": "COE", "country": "El Salvador", "year": 2026, "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/", "note": "国際オークション"},
+    {"date": "2026-07-09", "auction": "Cup of Excellence", "type": "COE", "country": "Costa Rica", "year": 2026, "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/", "note": "国際オークション"},
+    {"date": "2026-07-16", "auction": "Cup of Excellence", "type": "COE", "country": "Honduras", "year": 2026, "url": "https://allianceforcoffeeexcellence.org/honduras-2026/", "note": "国際オークション"},
+    {"date": "2026-07-23", "auction": "Cup of Excellence", "type": "COE", "country": "Guatemala", "year": 2026, "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/", "note": "国際オークション"},
+    {"date": "2026-07-28", "auction": "Cup of Excellence", "type": "COE", "country": "Mexico", "year": 2026, "url": "https://allianceforcoffeeexcellence.org/mexico-2026/", "note": "国際オークション"},
+    {"date": "2026-08-04", "auction": "Cup of Excellence", "type": "COE", "country": "Thailand", "year": 2026, "url": "https://allianceforcoffeeexcellence.org/thailand-2026/", "note": "国際オークション"},
+    {"date": "2026-09-23", "auction": "Best of Panama", "type": "BOP", "country": "Panama", "year": 2026, "url": "https://bestofpanama.auction/", "note": "国際電子オークション（40ロット）。競技結果は8/1発表。"},
+    {"date": "2026-12-01", "auction": "Cup of Excellence", "type": "COE", "country": "Indonesia", "year": 2026, "url": "https://allianceforcoffeeexcellence.org/indonesia-2026/", "note": "国際オークション"},
+    {"date": "2026-12-08", "auction": "Cup of Excellence", "type": "COE", "country": "Peru", "year": 2026, "url": "https://allianceforcoffeeexcellence.org/peru-2026/", "note": "国際オークション"},
+    {"date": "2026-12-10", "auction": "Cup of Excellence", "type": "COE", "country": "Brazil", "year": 2026, "url": "https://allianceforcoffeeexcellence.org/brazil-2026/", "note": "国際オークション"},
+
+    {"date": "2026-01-20", "auction": "Dubai Coffee Auction", "type": "Dubai", "country": "ドバイ(多国籍)", "year": 2026, "url": "https://dubaicoffeeauction.mcultivo.com/", "note": "第2回。World of Coffee Dubai(1/18-20)会場でライブ開催。"},
+    {"date": "2025-02-11", "auction": "Dubai Coffee Auction", "type": "Dubai", "country": "ドバイ(多国籍)", "year": 2025, "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february", "note": "第1回。9か国16ロット。Finca Sophia $10,020/kg。"},
+    {"date": "2026-10-18", "auction": "Colombia Land of Diversity", "type": "CLoD", "country": "Colombia", "year": 2026, "url": "https://colombialandofdiversity.mcultivo.com/", "note": "Federación Nacional de Cafeteros主催（mCultivo）。"},
+    {"date": "2025-04-04", "auction": "Colombia Land of Diversity", "type": "CLoD", "country": "Colombia", "year": 2025, "url": "https://colombialandofdiversity.mcultivo.com/auction/colombia-land-of-diversity-april-2025", "note": "第10回。1076生産者・53ファイナリスト。"},
+    {"date": "2025-09-18", "auction": "Best of Yemen", "type": "BoY", "country": "Yemen", "year": 2025, "url": "https://bestofyemenauction.com/", "note": "世界記録 $1,878/kg（Yemenia natural）。主催 Qima Coffee。"},
+    {"date": "2026-09-17", "auction": "Cumbres de Colombia (CGLE)", "type": "CGLE", "country": "Colombia", "year": 2026, "url": "https://cafegranjalaesperanza.com/", "note": "2026「Metamorphosis: The quiet alchemy」。Café Granja La Esperanza主催（mCultivo）。"},
+
+    {"date": "2026-08-18", "auction": "Hacienda La Esmeralda Auction", "type": "Esmeralda", "country": "Panama", "year": 2026, "url": "https://mcultivo.com/auction-events", "note": "「A Life In Stories: 90 Years of Price Peterson」（mCultivo）。"},
+    {"date": "2026-08-24", "auction": "Monte Copey (Aurum Series)", "type": "Aurum", "country": "Costa Rica", "year": 2026, "url": "https://mcultivo.com/auction-events", "note": "Aurum Series（8/24-26、mCultivo）。"},
+    {"date": "2026-08-25", "auction": "Ethiopia Taste of Harvest", "type": "AFCA", "country": "Ethiopia", "year": 2026, "url": "https://mcultivo.com/auction-events", "note": "AFCA主催（8/25-27、mCultivo）。"},
+    {"date": "2026-09-01", "auction": "Best of Congo", "type": "BoCongo", "country": "DR Congo", "year": 2026, "url": "https://mcultivo.com/auction-events", "note": "African Coffee Connect（9/1-3、mCultivo）。"},
+    {"date": "2026-09-08", "auction": "Lamastus Family Estates", "type": "Lamastus", "country": "Panama", "year": 2026, "url": "https://mcultivo.com/auction-events", "note": "「First Light Before the World Wakes」。Elida Estate（mCultivo）。"},
+    {"date": "2026-09-14", "auction": "Testi Signature Auction", "type": "Testi", "country": "Ethiopia", "year": 2026, "url": "https://mcultivo.com/auction-events", "note": "Faysel Abdosh Signature（mCultivo）。"},
+    {"date": "2026-11-24", "auction": "Daterra Masterpieces", "type": "Daterra", "country": "Brazil", "year": 2026, "url": "https://mcultivo.com/auction-events", "note": "Masterpieces by Daterra（mCultivo）。"},
+    {"date": "2025-10-22", "auction": "Cumbres de Colombia (CGLE)", "type": "CGLE", "country": "Colombia", "year": 2025, "url": "https://cafegranjalaesperanza.com/", "note": "Café Granja La Esperanza主催。コロンビア最高値 $2,194.1/kg。"},
+    {"date": "2026-07-29", "auction": "Gesha Village Auction", "type": "GV", "country": "Ethiopia", "year": 2026, "url": "https://prideofgesha.com/", "note": "第10回 Pride of Gesha（記念版・34ロット、Dark Room Dried 18ロット初登場）。"},
+    {"date": "2022-06-28", "auction": "Gesha Village Auction", "type": "GV", "country": "Ethiopia", "year": 2022, "url": "https://www.geshavillage.com/auction/", "note": "第6回。$254/lb（アフリカ産最高）。以降も毎年5〜6月開催。"},
+
+    {"date": "", "auction": "Cup of Excellence", "type": "COE", "country": "Taiwan", "year": 2026, "url": "https://allianceforcoffeeexcellence.org/", "note": "日程未定（TBD）"},
+    {"date": "2026-09-10", "auction": "Best of Yemen", "type": "BoY", "country": "Yemen", "year": 2026, "url": "https://bestofyemenauction.com/", "note": "Qima Coffee主催。前回2025は世界記録 $1,878/kg。"}
+  ]
+}
