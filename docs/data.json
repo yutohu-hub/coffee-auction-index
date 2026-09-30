@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-29 11:39 UTC",
- "today": "2026-09-29",
+ "updated": "2026-09-30 11:26 UTC",
+ "today": "2026-09-30",
  "stats": {
   "lots": 4967,
   "priced": 4832,
@@ -28,7 +28,7 @@
   "current_year": 2026,
   "top_price": 13705.0,
   "top_score": 94.25,
-  "total_value": 71765646
+  "total_value": 71775547
  },
  "records": {
   "price": {
@@ -51,7 +51,7 @@
    "url": "https://bestofpanama.org/",
    "note": "世界記録更新。$30,204/kg。Boquete, Chiriquí。",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   "score": {
    "key": "346f68e07c15e490",
@@ -73,7 +73,7 @@
    "url": "https://cafegranjalaesperanza.com/",
    "note": "Mavicure Hills（第5回・25ロット）。コロンビア史上最高値 $2,194.1/kg・94.25点。Trujillo, Valle del Cauca。CGLEは2021年にコロンビア初の私営オークションを開始。",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   "total": {
    "key": "53ab8e2a5765d64e",
@@ -216,7 +216,7 @@
    "url": "https://bestofpanama.org/",
    "note": "世界記録更新。$30,204/kg。Boquete, Chiriquí。",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "943a46a76c03ee0f",
@@ -238,7 +238,7 @@
    "url": "https://bestofpanama.org/",
    "note": "$23,608/kg。",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "69949813f9acc0d5",
@@ -260,7 +260,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Natural Geisha",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2d3ed4470734bbfd",
@@ -282,7 +282,7 @@
    "url": "https://bestofpanama.org/",
    "note": "Elida Geisha Natural Vuelta。$10,013/kg。総額$1,383,719・平均$1,383/kg・200超のバイヤー・18,000超の入札。",
    "first_seen": 1787042936.566937,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c9813eb8ff5d2392",
@@ -304,7 +304,7 @@
    "url": "https://bestofpanama.org/",
    "note": "Kaizen Washed Geisha。$10,002/kg（第2位）。",
    "first_seen": 1787042936.566937,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6a3be44f51b546d0",
@@ -326,7 +326,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Natural Geisha",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "bca1fa1579dd4854",
@@ -348,7 +348,7 @@
    "url": "https://bestofpanama.org/",
    "note": "Laurina品種カテゴリ首位。$8,040/kg。",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "be1e7237bd28ac7a",
@@ -370,7 +370,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Natural Geisha",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "346f68e07c15e490",
@@ -392,7 +392,7 @@
    "url": "https://cafegranjalaesperanza.com/",
    "note": "Mavicure Hills（第5回・25ロット）。コロンビア史上最高値 $2,194.1/kg・94.25点。Trujillo, Valle del Cauca。CGLEは2021年にコロンビア初の私営オークションを開始。",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6645aadc58f7cd9a",
@@ -414,7 +414,7 @@
    "url": "https://qimacoffee.v-auction.com/en/",
    "note": "Al Jidan, Sana'a。イエメンコーヒー世界最高値 $1,878/kg（3年連続の記録更新）。2025の全ロットはV-Auction基盤。",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "23a7dcb4ca363975",
@@ -436,7 +436,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "56b2458f5c4ae041",
@@ -458,7 +458,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Oma Natural",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e485a74b4b6c814a",
@@ -480,7 +480,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "04e657e2cac44246",
@@ -524,7 +524,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b0a152bc165715b4",
@@ -546,7 +546,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Kona SL 34",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "53ab8e2a5765d64e",
@@ -634,7 +634,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8b27be68a0a27ceb",
@@ -656,7 +656,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "09891a78bddd7a2a",
@@ -678,7 +678,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "090c561bb1e2bfdb",
@@ -700,7 +700,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d46b6adb2ff86b85",
@@ -722,7 +722,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "bc859291475b2477",
@@ -744,7 +744,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Natural Wush Wush",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b91cb4187e712037",
@@ -766,7 +766,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5487e3942ea310ef",
@@ -788,7 +788,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "949e2a39239ad132",
@@ -810,7 +810,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "216d0ab0cf02b7b4",
@@ -832,7 +832,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7bf33287653e4413",
@@ -854,7 +854,7 @@
    "url": "https://www.geshavillage.com/auction/",
    "note": "第6回オークション(6/28)。アフリカ産コーヒー史上最高値。総額$283,481・平均$82.42/lb・26ロット。総額は約$33,000。",
    "first_seen": 1786799813.0769181,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1ea13d040f087bc3",
@@ -876,7 +876,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7403078de666314d",
@@ -898,7 +898,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "72c83d0b4cdda720",
@@ -920,7 +920,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5ed67a79ae69386e",
@@ -942,7 +942,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e26761d480f1e4bd",
@@ -964,7 +964,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "dedf2d54cbe38771",
@@ -986,7 +986,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e3d38d342d67fd77",
@@ -1008,7 +1008,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ec69bee7fd16c581",
@@ -1030,7 +1030,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "dec4a510ce79055f",
@@ -1052,7 +1052,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "4ecf3e78dc9e54fe",
@@ -1140,7 +1140,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Al-Khanshali Estate II",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "de5e21e498ef167a",
@@ -1162,7 +1162,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "04c9c55cc5638530",
@@ -1228,7 +1228,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f5e4dd74156ca400",
@@ -1250,7 +1250,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2a07859bd4aa6118",
@@ -1272,7 +1272,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Natural Geisha",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "96864660408f3c4e",
@@ -1294,7 +1294,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a018803ffd09e5c6",
@@ -1338,7 +1338,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Washed Geisha",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "004f5029ba5d112b",
@@ -1360,7 +1360,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7239de32822e6cd6",
@@ -1404,7 +1404,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6735a62d9be7a578",
@@ -1470,7 +1470,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Dipilto",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "aa55ec42f96dce37",
@@ -1514,7 +1514,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Dipilto",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f1dbc0a7ecac80ac",
@@ -1602,7 +1602,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a341360743d2cf92",
@@ -1712,7 +1712,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "99f860f24dcef5b9",
@@ -1800,7 +1800,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "78139816e1d4792a",
@@ -1866,7 +1866,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Daterra Gesha",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5637f68e0d883e1c",
@@ -1910,7 +1910,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b0d5c43ba30d6c44",
@@ -1932,7 +1932,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Al-Khanshali Estate I",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d96a249ed8afeb8d",
@@ -1954,7 +1954,7 @@
    "url": "https://colombialandofdiversity.com/",
    "note": "第8回(5月・Bucaramanga)。コロンビア過去最高値。平均$22.77/lb・27ロット。Ragonvalia, Norte de Santander。",
    "first_seen": 1786799813.0769181,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8bc0f465e6c92e0c",
@@ -1976,7 +1976,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Las Milpa",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9bf790fc78340e24",
@@ -1998,7 +1998,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "926 GeshaSignature",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c12b1ae235dd1826",
@@ -2108,7 +2108,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9f80b8979c8bd91a",
@@ -2130,7 +2130,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a975e197116a4618",
@@ -2152,7 +2152,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d4a01cd681b7d5d0",
@@ -2174,7 +2174,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "22b5f6ca764d8d89",
@@ -2284,7 +2284,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3fdd8da244e94b0e",
@@ -2328,7 +2328,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3ce78090d9cb7c12",
@@ -2350,7 +2350,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3948fe5e55b45b5d",
@@ -2438,7 +2438,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8b4a2b2d66581a83",
@@ -2460,7 +2460,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7007c00a503e2368",
@@ -2482,7 +2482,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d453bccb32598a7f",
@@ -2526,7 +2526,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "4d7ef87245472ece",
@@ -2636,7 +2636,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "820995f900a04c08",
@@ -2658,7 +2658,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "acdd46958e7c5998",
@@ -2746,7 +2746,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Washed Geisha",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7ebc781c391b97fa",
@@ -2790,7 +2790,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6411063c79616b9f",
@@ -2834,7 +2834,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b7f0c723c8a2365c",
@@ -2856,7 +2856,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1d3546db42a812b2",
@@ -2878,7 +2878,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "653660c3fab7f323",
@@ -2944,7 +2944,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d565bc9aea3d8505",
@@ -3032,7 +3032,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1a5b681ab80623b2",
@@ -3054,7 +3054,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b3f042ae979352ee",
@@ -3120,7 +3120,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c025e252e1f6d393",
@@ -3164,7 +3164,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "4a1637347fdfa557",
@@ -3252,7 +3252,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ee102989a9587318",
@@ -3274,7 +3274,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "374ec3b2c8dbc10d",
@@ -3296,7 +3296,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Chiapas",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "46000c129c5a7e2d",
@@ -3318,7 +3318,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Chiapas",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3f675709f7b37abf",
@@ -3362,7 +3362,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "40269b2250ed6c33",
@@ -3450,7 +3450,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d0a23328157cb484",
@@ -3494,7 +3494,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9374837d7b1d6fd6",
@@ -3516,7 +3516,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f6b5920434e16005",
@@ -3582,7 +3582,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "648fc1bad149c615",
@@ -3604,7 +3604,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ebc62470933d17d1",
@@ -3626,7 +3626,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Borbon,Villa Sarchi,Catuaí,Typica · Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3d5238215aea2c5b",
@@ -3692,7 +3692,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Intibucá",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "48c62b4decad9428",
@@ -3736,7 +3736,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3d5327a601a1f649",
@@ -3758,7 +3758,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e9fe9fa44be5575f",
@@ -3802,7 +3802,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Intibucá",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6c6cdf72cdbe78a7",
@@ -3824,7 +3824,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "38bfe36cbd456e55",
@@ -3846,7 +3846,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c7705e1cde96542d",
@@ -3956,7 +3956,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "30a49b45331a60a8",
@@ -3978,7 +3978,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Francisco Morazán",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d02718a272c7b98c",
@@ -4000,7 +4000,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "84fe9f02aa09224a",
@@ -4044,7 +4044,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8350ba03a03d7cf2",
@@ -4066,7 +4066,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6bbd38b13383d225",
@@ -4110,7 +4110,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2ecf9d895ff81296",
@@ -4154,7 +4154,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "969f9889e636cce9",
@@ -4176,7 +4176,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1b7f7eba95aa35e3",
@@ -4462,7 +4462,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3c82ac0cc002edfb",
@@ -4528,7 +4528,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "98eef9e933d04827",
@@ -4660,7 +4660,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b38e68d3f617445e",
@@ -4836,7 +4836,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a6f784e638e9dfc0",
@@ -4858,7 +4858,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "bbe31f616cbe6b0d",
@@ -4924,7 +4924,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a6c591496615b690",
@@ -5122,7 +5122,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a036deaeeec98176",
@@ -5144,7 +5144,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d61712447f60f849",
@@ -5210,7 +5210,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2bd10d02fa14aa4f",
@@ -5232,7 +5232,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ad772f72f09905f8",
@@ -5254,7 +5254,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3f104e7dc30122bd",
@@ -5584,7 +5584,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "56dff633c2279103",
@@ -5650,7 +5650,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Dipilto",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "32aa0d9e4a97cd0f",
@@ -5672,7 +5672,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Dipilto",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "44215bc5330fb5af",
@@ -5694,7 +5694,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9b2604f32de774f2",
@@ -5738,7 +5738,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1a2ac60c198efe55",
@@ -5914,7 +5914,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "241a1727f9dfc4de",
@@ -5936,7 +5936,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "97b224f76baa4e66",
@@ -6112,7 +6112,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "864a2f4042168058",
@@ -6156,7 +6156,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e55363e869f2611c",
@@ -6178,7 +6178,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a6a24e9a320cae53",
@@ -6310,7 +6310,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Anoxia Geisha",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a4be8147a15899da",
@@ -6354,7 +6354,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b8c76b098cb3cf4f",
@@ -6398,7 +6398,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "887d71716d5e3c39",
@@ -6464,7 +6464,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2024/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "19937627cad9bff2",
@@ -6552,7 +6552,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "36a82f06395215bc",
@@ -6706,7 +6706,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "963e78cc2f566d63",
@@ -6882,7 +6882,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f18d6fdf1cf25cb8",
@@ -6904,7 +6904,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "15bc457eb7c2fca8",
@@ -6948,7 +6948,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3e4473400e3bdd5f",
@@ -7234,7 +7234,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9b6d031d54ddbcdf",
@@ -7278,7 +7278,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "97f2a7c49ec10c25",
@@ -7344,7 +7344,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Anaerobic Geisha",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f92e47f281e57161",
@@ -7476,7 +7476,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c08932cd09918a38",
@@ -7564,7 +7564,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "56214b62d0ea6973",
@@ -7586,7 +7586,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b080c8290670dbe8",
@@ -7762,7 +7762,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e141f5eb41ddae5a",
@@ -7806,7 +7806,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0dd0d1bff1999b12",
@@ -7872,7 +7872,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "179f6e90a7ac2c95",
@@ -8070,7 +8070,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e211bf587d799df5",
@@ -8246,7 +8246,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0ed3f91143f37f41",
@@ -8334,7 +8334,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "137b5c99e9c794bf",
@@ -8378,7 +8378,7 @@
    "url": "https://dubaicoffeeauction.mcultivo.com/2025-auction-results-february",
    "note": "Pitaya Gesha",
    "first_seen": 1786800435.012345,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "eb2f5b89a57974d0",
@@ -8400,7 +8400,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9586238a4064db4d",
@@ -8488,7 +8488,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1535b5cbaebcb8e9",
@@ -8510,7 +8510,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3eb085b65c089a42",
@@ -8532,7 +8532,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "09b1fb6d95cb54ee",
@@ -8554,7 +8554,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "832b2384333cdd80",
@@ -8576,7 +8576,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Valle Occidental",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "254508a77027c9b7",
@@ -8708,7 +8708,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "088ffcc9e142def7",
@@ -8906,7 +8906,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1b6f11eb1b19e39f",
@@ -9280,7 +9280,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "380eae93b3b71f55",
@@ -9346,7 +9346,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0beb30a6915dbe87",
@@ -9368,7 +9368,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "51575198286996a4",
@@ -9478,7 +9478,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0e7f8b83c9a59831",
@@ -9500,7 +9500,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "cc391b004759e796",
@@ -9786,7 +9786,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6faac0ab199bf65e",
@@ -10050,7 +10050,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a06d6fefbbe05555",
@@ -10182,7 +10182,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "48e355ee469f35f5",
@@ -10358,7 +10358,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "cd2105616d3ca6e0",
@@ -10380,7 +10380,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "4758930230f2e42d",
@@ -10402,7 +10402,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "aded55e8ae164c5c",
@@ -10666,7 +10666,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "95e615c7c60f49ba",
@@ -10688,7 +10688,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "cba869499db0b556",
@@ -10732,7 +10732,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "La Paz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "43d7ec802c94dccd",
@@ -10798,7 +10798,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6ce1be992daea806",
@@ -10820,7 +10820,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Valle Occidental",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "665f57a21ee5cfaa",
@@ -10886,7 +10886,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Jalapa",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "185721b1154956c5",
@@ -10908,7 +10908,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e35e8758c7041512",
@@ -10930,7 +10930,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1c83154dc76ceb94",
@@ -10996,7 +10996,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Intibucá",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "486024b8cd22bad5",
@@ -11128,7 +11128,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "dfbcaef1ac944949",
@@ -11150,7 +11150,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a9480b97d72c36dc",
@@ -11216,7 +11216,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b27d92b6d9dbddcd",
@@ -11238,7 +11238,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Santa Rosa",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5d82d33caa3d52bf",
@@ -11260,7 +11260,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8b1e69c42e2ab06d",
@@ -11414,7 +11414,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Jalapa",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d217c1638953b59e",
@@ -11678,7 +11678,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c15e09c82fc32c81",
@@ -11700,7 +11700,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "805824f2df622594",
@@ -11722,7 +11722,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d1dab20bda614ba8",
@@ -11832,7 +11832,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "105c6560bcbc6040",
@@ -11854,7 +11854,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "bc0e46b04b2ae605",
@@ -11920,7 +11920,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "fe9f553da4d7d2db",
@@ -11964,7 +11964,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b937e59da404e41b",
@@ -12162,7 +12162,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3746d6afc53878f0",
@@ -12184,7 +12184,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "20233fd1527ab8b5",
@@ -12206,7 +12206,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "bd266e60b78f193d",
@@ -12382,7 +12382,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "50d2463279f20ca4",
@@ -12404,7 +12404,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Lempira",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "adcef6f62f9f1314",
@@ -12514,7 +12514,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Chimaltenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0dfc057079108564",
@@ -12756,7 +12756,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a73c16d6e9ff752c",
@@ -12778,7 +12778,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "27b16f744d8d6ed7",
@@ -12866,7 +12866,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b29cc53d23292e11",
@@ -12888,7 +12888,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5fd083725977e652",
@@ -13108,7 +13108,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Perez Zeledon",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f0b780e739921f5c",
@@ -13130,7 +13130,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "86718bcdca50f63f",
@@ -13218,7 +13218,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Guatemala",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3ecac731c25849be",
@@ -13306,7 +13306,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b7f8d7b3947ab979",
@@ -13372,7 +13372,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "dd22eebe8fb827fd",
@@ -13416,7 +13416,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0ad493728482ca99",
@@ -13482,7 +13482,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "07d0169b840d7757",
@@ -13680,7 +13680,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Borbon,Villa Sarchi,Catuaí,Typica · Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "89b997f7c730ce7d",
@@ -13812,7 +13812,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "4ebef70d06c76782",
@@ -13966,7 +13966,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "421aba065efd58a2",
@@ -14010,7 +14010,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "25504ec3803d282c",
@@ -14032,7 +14032,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "20d832d147ac45f6",
@@ -14098,7 +14098,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c8183599f3aefdbf",
@@ -14362,7 +14362,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "677210e2f80fa560",
@@ -14428,7 +14428,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "754af28ab9574720",
@@ -14450,7 +14450,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ba32fd98247798c4",
@@ -14472,7 +14472,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "20e040f91ce32906",
@@ -14494,7 +14494,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "4af66ed4b04a63dc",
@@ -14604,7 +14604,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6e6a475f0bb60833",
@@ -14824,7 +14824,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "18bc0a0b9e75961c",
@@ -14934,7 +14934,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2c8adefe95556d79",
@@ -15000,7 +15000,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c5a3608132e6573c",
@@ -15066,7 +15066,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "115647d146fccb1d",
@@ -15088,7 +15088,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f85fe0b17929513b",
@@ -15154,7 +15154,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "97fb7f9b9de0aa84",
@@ -15242,7 +15242,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2026/",
    "note": "",
    "first_seen": 1789296100.1699471,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c22b899db0ab8299",
@@ -15308,7 +15308,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "00a554c4fb1deae4",
@@ -15418,7 +15418,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5bb40b1d1e3eba9b",
@@ -15528,7 +15528,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2dbe3bbb3cac34f1",
@@ -15638,7 +15638,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Pacamara,Maragogype · Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8c958c3b92105f6a",
@@ -15660,7 +15660,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Chimaltenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e7868a829dc40dec",
@@ -15682,7 +15682,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "221d6742a46ffca4",
@@ -15880,7 +15880,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Francisco Morazán",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7a8eb2aa62c79e53",
@@ -16100,7 +16100,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "694146d912323627",
@@ -16122,7 +16122,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Chiapas",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8f0b16df3b00e774",
@@ -16540,7 +16540,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Caturra, Typica · Estado De Mexico",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "38fd162b1db56c61",
@@ -16804,7 +16804,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c080a795da8361bf",
@@ -16848,7 +16848,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0a7e0b5cfd37aa8d",
@@ -16958,7 +16958,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Typica, Borbón, Geisha · Oaxaca",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9bf04d30f3285c04",
@@ -16980,7 +16980,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "16b09a0648b91244",
@@ -17244,7 +17244,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d9b7358ca1e9a4b8",
@@ -17354,7 +17354,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e24eef8da4b06b99",
@@ -17552,7 +17552,7 @@
    "url": "https://allianceforcoffeeexcellence.org/best-of-yemen-2022/",
    "note": "",
    "first_seen": 1786800737.470863,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d72ba2aa430e952a",
@@ -17596,7 +17596,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7f338ffb3660b570",
@@ -17618,7 +17618,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7e44cfd4bf3890d7",
@@ -17706,7 +17706,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Lempira",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e5b6d64873539a8b",
@@ -17772,7 +17772,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Chiapas",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c9bc944ae533ef17",
@@ -18234,7 +18234,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f102d27c6248d3e7",
@@ -18344,7 +18344,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "671bcc953044a9ff",
@@ -18366,7 +18366,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "marsellesa , Colombia · Puebla",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "71b580b1fbf18942",
@@ -18432,7 +18432,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Valle Occidental",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9d9258548c46dddd",
@@ -18454,7 +18454,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Los Santos",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0fe98a48bf947639",
@@ -18828,7 +18828,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e8d7047897a9b7b3",
@@ -18960,7 +18960,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6109f4c887875ac5",
@@ -19092,7 +19092,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Gesha · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "09165412554dee77",
@@ -19290,7 +19290,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Sl28 · Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2c468a66d3bd394b",
@@ -19378,7 +19378,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Lempira",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "36e99d482c1e20bb",
@@ -19400,7 +19400,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Oaxaca",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ac3228d1b20d9b9e",
@@ -19840,7 +19840,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3d2477e198ae8e05",
@@ -20038,7 +20038,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2fcb5c6337de024b",
@@ -20060,7 +20060,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "32b071a1c3990063",
@@ -20082,7 +20082,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c0786f702efb60ef",
@@ -20214,7 +20214,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "75a5e9ca53c75c74",
@@ -20500,7 +20500,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5a3b2cc7e84f222f",
@@ -20522,7 +20522,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Jalapa",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8dfb683bcf646066",
@@ -20632,7 +20632,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b4d56ddfb946fee5",
@@ -20940,7 +20940,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f10b495cafa733e4",
@@ -20962,7 +20962,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Maracaturra · Jutiapa",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "04ef4d39586cad1c",
@@ -20984,7 +20984,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6761fb494c85a495",
@@ -21006,7 +21006,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Quetzaltenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "eca8ac00e84942ca",
@@ -21028,7 +21028,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "cbec06ef54507a4e",
@@ -21050,7 +21050,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8592e9a9d2de55db",
@@ -21578,7 +21578,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9c8d8307c29748ca",
@@ -21600,7 +21600,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9b36f20fce4d45ee",
@@ -21622,7 +21622,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9f4ca3b2a3ec46f8",
@@ -21644,7 +21644,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b57cba3d5f3a4d5d",
@@ -21666,7 +21666,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Geisha 100% · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c2223899ee6504fc",
@@ -21688,7 +21688,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Typica, Marcellesa, Gesha · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a5280631f13f0ae5",
@@ -21886,7 +21886,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "552fff2fa3652467",
@@ -21952,7 +21952,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Valle Occidental",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6b65ec5395354422",
@@ -21974,7 +21974,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "185d046e0db1c3db",
@@ -22040,7 +22040,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b6936561e7e1d4c0",
@@ -22150,7 +22150,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Valle Occidental",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3760e214cc09aff1",
@@ -22260,7 +22260,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e62b6dfc71a4db32",
@@ -22436,7 +22436,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c0c542f7ed036383",
@@ -22656,7 +22656,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "bdda50ac3d806215",
@@ -22678,7 +22678,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a13b10309da81555",
@@ -22766,7 +22766,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Borbon,Caturra · Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d7fde82dbbbb5d90",
@@ -22788,7 +22788,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Lempira",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "463483cb6a359f2e",
@@ -22854,7 +22854,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Solola",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "82b7f1e605aa87ae",
@@ -22964,7 +22964,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Borbon,Caturra · Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d18493631a9737e1",
@@ -23888,7 +23888,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e3419c9666e453c3",
@@ -23998,7 +23998,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Alta Verapaz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c598eba5dc24ea19",
@@ -24152,7 +24152,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d439a57c560b9bba",
@@ -24174,7 +24174,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d48d30503e5d6214",
@@ -24416,7 +24416,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d4566a9f40b5bfdf",
@@ -24482,7 +24482,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d4268909413b6125",
@@ -24504,7 +24504,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Typica, Bourbon, Caturra · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "11cfbea933520e9c",
@@ -24702,7 +24702,7 @@
    "url": "https://allianceforcoffeeexcellence.org/costa-rica-2026/",
    "note": "Valle Occidental",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b1048c5b20c37b51",
@@ -24724,7 +24724,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Santa Bárbara",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "4ad5a4e680b5fbd0",
@@ -24746,7 +24746,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Maracaturra · Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a8b722b68a5e1644",
@@ -24812,7 +24812,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Lempira",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b2b6e04e92da633e",
@@ -24834,7 +24834,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Borbon Amarillo,Caturra · Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f78bd53d52338496",
@@ -25010,7 +25010,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9ea90ab97848070e",
@@ -25560,7 +25560,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2f5423fcbae8edc2",
@@ -25736,7 +25736,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "27f56bd6cb775f9a",
@@ -25956,7 +25956,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "La Paz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7a711b87d7d33f41",
@@ -25978,7 +25978,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f0b9aed61fd16963",
@@ -26176,7 +26176,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "68c17ab9d25e86ec",
@@ -26770,7 +26770,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "55c3eebfbd59ba54",
@@ -26792,7 +26792,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7a58601642882817",
@@ -27584,7 +27584,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "bdf95caa1facc139",
@@ -28354,7 +28354,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "El Paraíso",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "983922620bc953e4",
@@ -28376,7 +28376,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Ana café 14 · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d9a906650dfaa5eb",
@@ -28398,7 +28398,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Ana café 14 , Marsellesa · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "778f17bd408b2768",
@@ -28420,7 +28420,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Puebla",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c348daeb64073ae1",
@@ -28442,7 +28442,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "San Isidro , Marcellesa , Anacafe , Hibrido · Chiapas",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "02bd1367dd810f86",
@@ -29014,7 +29014,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "939bf5250678b18f",
@@ -29036,7 +29036,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0f39c115844d2fc6",
@@ -29278,7 +29278,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b5fcb38ba6ae9fc3",
@@ -29388,7 +29388,7 @@
    "url": "https://allianceforcoffeeexcellence.org/honduras-2026/",
    "note": "Comayagua",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "67cb00bc7db885a8",
@@ -29608,7 +29608,7 @@
    "url": "https://allianceforcoffeeexcellence.org/ecuador-farmers-collection-2026/",
    "note": "",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1dda920978bb8001",
@@ -30246,7 +30246,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5fcfa297701007a5",
@@ -30268,7 +30268,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7b814c31cbcbf152",
@@ -30598,7 +30598,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "876dab0df856d33a",
@@ -31280,7 +31280,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c09dc69d6f61fe28",
@@ -32072,7 +32072,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2242ea780b137f59",
@@ -32622,7 +32622,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "13a50b66a7e1f0ff",
@@ -33876,7 +33876,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7a108c19babc6668",
@@ -33898,7 +33898,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Bourbon Goliath · Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9c9962d2335541b9",
@@ -33920,7 +33920,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Geisha 64.8% / Kenia Sl28 35.2% · Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "eb1482c0dad9b7e3",
@@ -33942,7 +33942,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "fd3bbb8d1d2fee3c",
@@ -34184,7 +34184,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9cfa1c96a9a830fc",
@@ -34910,7 +34910,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a5cddc9784fa415d",
@@ -35020,7 +35020,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3cffde4316d1a508",
@@ -35328,7 +35328,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Pacamara Amarillo · Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "490bde5f3d9faf61",
@@ -36277,6 +36277,28 @@
    "last_seen": 1786873971.059828
   },
   {
+   "key": "bccb2bafee971941",
+   "source": "COE",
+   "auction": "Cup of Excellence",
+   "country": "Brazil",
+   "year": 2017,
+   "category": "COE",
+   "rank": "",
+   "farm": "FAZENDA SERTÃOZINHO 2017 {UTZ}",
+   "variety": "",
+   "process": "",
+   "score": null,
+   "weight_lb": null,
+   "price_lb": 16.2,
+   "total_value": 21428.87,
+   "buyer": "",
+   "auction_date": "",
+   "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
+   "note": "",
+   "first_seen": 1786873971.059828,
+   "last_seen": 1790767616.1259403
+  },
+  {
    "key": "70f6ed31964973f7",
    "source": "COE",
    "auction": "Cup of Excellence",
@@ -36868,7 +36890,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Bourbon 70% /Typica 30% · El Balsamo-Quezaltepeque",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e45c5d81a401941f",
@@ -38276,7 +38298,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Pacamara Amarillo · San Fernando",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f6ff922fd42e4829",
@@ -38694,7 +38716,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Dipilto",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d8c617bc96cc2e82",
@@ -40740,7 +40762,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "85f9ff58bcd3bd2d",
@@ -40806,7 +40828,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "050a6b37c0daedb0",
@@ -40828,7 +40850,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Apaneca-Ilamatepec",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0f71471012ceeeb6",
@@ -41444,7 +41466,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3d7ba1f7829ae4a1",
@@ -41576,7 +41598,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "588255bd88a6f067",
@@ -41686,7 +41708,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a16289db0359c6fb",
@@ -41774,7 +41796,7 @@
    "url": "https://allianceforcoffeeexcellence.org/el-salvador-2026/",
    "note": "Alotepec-Metapan",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ed2aea7a71786ad5",
@@ -42258,7 +42280,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Geisha, Sarchimor · Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "030e052846cbdbca",
@@ -42522,7 +42544,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Maracaturra · Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ec6223423ddeb2b7",
@@ -42544,7 +42566,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "San Rafael Del Norte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8c5233d9af6e55ba",
@@ -42984,7 +43006,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "San Fernando",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9dc0c16bc7a31a5a",
@@ -43006,7 +43028,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Dipilto",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "def3e5289c9ace6f",
@@ -43028,7 +43050,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Maracaturra · Dipilto",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "35980d7d59ef5fdd",
@@ -43380,7 +43402,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "27aa116b60e11c90",
@@ -43952,7 +43974,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Caturra-catuai-bourbon · Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "32ed7ec89ef7e40f",
@@ -43974,7 +43996,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Michoacán",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "85ba3c90b6e54b01",
@@ -44260,7 +44282,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Catuai Rojo · Dipilto",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d25cdfc99fbef7a5",
@@ -44502,7 +44524,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "San Fernando",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b87eaf98e9b9bdc6",
@@ -44524,7 +44546,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Dipilto",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "efe060975779e53a",
@@ -44832,7 +44854,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "959280d787c3c791",
@@ -46460,7 +46482,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Ilegible",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "696aec2990f5c470",
@@ -48110,7 +48132,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "San Rafael Del Norte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1776707e1f3192a6",
@@ -48132,7 +48154,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "79d64d9dc6acfc1a",
@@ -49166,7 +49188,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "bee55dd775448a06",
@@ -50379,28 +50401,6 @@
    "last_seen": 1786794130.401502
   },
   {
-   "key": "5b1470e5b18f244c",
-   "source": "COE",
-   "auction": "Cup of Excellence",
-   "country": "Brazil",
-   "year": 2017,
-   "category": "COE",
-   "rank": "",
-   "farm": "FAZENDA SÃO SILVESTRE 2017…",
-   "variety": "",
-   "process": "",
-   "score": null,
-   "weight_lb": null,
-   "price_lb": 11.8,
-   "total_value": 10145.64,
-   "buyer": "",
-   "auction_date": "",
-   "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2017/",
-   "note": "",
-   "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
-  },
-  {
    "key": "ffbb55d4d0967072",
    "source": "COE",
    "auction": "Cup of Excellence",
@@ -50442,7 +50442,7 @@
    "url": "https://allianceforcoffeeexcellence.org/mexico-2026/",
    "note": "Veracruz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8905323e2d0831fc",
@@ -50574,7 +50574,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "62f4780d1dfc94b9",
@@ -51146,7 +51146,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Jinotega",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "71e956df16c353be",
@@ -51784,7 +51784,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "El Progreso",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "4b328dd34f1e6063",
@@ -52158,7 +52158,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6c632c59e435a22f",
@@ -52180,7 +52180,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "fb6a788417347647",
@@ -52205,6 +52205,28 @@
    "last_seen": 1786794130.401502
   },
   {
+   "key": "5b1470e5b18f244c",
+   "source": "COE",
+   "auction": "Cup of Excellence",
+   "country": "Brazil",
+   "year": 2017,
+   "category": "COE",
+   "rank": "",
+   "farm": "FAZENDA SÃO SILVESTRE 2017…",
+   "variety": "",
+   "process": "",
+   "score": null,
+   "weight_lb": null,
+   "price_lb": 11.11,
+   "total_value": 21309.2,
+   "buyer": "",
+   "auction_date": "",
+   "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
+   "note": "",
+   "first_seen": 1786873971.059828,
+   "last_seen": 1790767616.1259403
+  },
+  {
    "key": "10a49c9a9fb72dde",
    "source": "COE",
    "auction": "Cup of Excellence",
@@ -52224,7 +52246,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Huehuetenango",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "88a7408226135500",
@@ -52246,7 +52268,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Maracaturra · Dipilto",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9cc1dc6b02436525",
@@ -52268,7 +52290,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "San Rafel Del Norte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "bb7f26ee44a74675",
@@ -54754,7 +54776,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Baja Verapaz",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1f483fc3e025cb43",
@@ -55018,7 +55040,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c8b9eb3c205201be",
@@ -56910,7 +56932,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Bourbon Rosado · Mozonte",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "414f60c874daa545",
@@ -58912,7 +58934,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ca9dd38818be0cb3",
@@ -59749,28 +59771,6 @@
    "note": "",
    "first_seen": 1786873971.059828,
    "last_seen": 1786873971.059828
-  },
-  {
-   "key": "c9a59fab494153ce",
-   "source": "COE",
-   "auction": "Cup of Excellence",
-   "country": "Brazil",
-   "year": 2012,
-   "category": "COE",
-   "rank": "",
-   "farm": "Fazenda Sertãozinho",
-   "variety": "",
-   "process": "",
-   "score": null,
-   "weight_lb": null,
-   "price_lb": 9.85,
-   "total_value": 24856.14,
-   "buyer": "",
-   "auction_date": "",
-   "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2012/",
-   "note": "",
-   "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
   },
   {
    "key": "b567d4ade5052ab3",
@@ -60805,28 +60805,6 @@
    "note": "",
    "first_seen": 1786794130.401502,
    "last_seen": 1786794130.401502
-  },
-  {
-   "key": "bccb2bafee971941",
-   "source": "COE",
-   "auction": "Cup of Excellence",
-   "country": "Brazil",
-   "year": 2017,
-   "category": "COE",
-   "rank": "",
-   "farm": "FAZENDA SERTÃOZINHO 2017 {UTZ}",
-   "variety": "",
-   "process": "",
-   "score": null,
-   "weight_lb": null,
-   "price_lb": 9.5,
-   "total_value": 7539.77,
-   "buyer": "",
-   "auction_date": "",
-   "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2017/",
-   "note": "",
-   "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
   },
   {
    "key": "86592d2254855d48",
@@ -63994,7 +63972,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c26ea26d28efa91d",
@@ -64742,7 +64720,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "59877c1628c70d2c",
@@ -64940,7 +64918,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "4304133e6a0d2c1c",
@@ -65292,7 +65270,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1064523e53678963",
@@ -65468,7 +65446,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "bce3e24c7f53a367",
@@ -66062,7 +66040,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6ff56bcda0d16354",
@@ -66216,7 +66194,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "420600f81bdb0c99",
@@ -66238,7 +66216,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "63c0d98f96d4a7bc",
@@ -66348,7 +66326,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "59726789f3811e69",
@@ -67470,7 +67448,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5ccb8372f3f0da22",
@@ -67492,7 +67470,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7cae5a99c4e2b2fd",
@@ -67800,7 +67778,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "98f7b16c20a52dd9",
@@ -67999,28 +67977,6 @@
    "note": "",
    "first_seen": 1786873971.059828,
    "last_seen": 1786873971.059828
-  },
-  {
-   "key": "268b0d7d2d49ea55",
-   "source": "COE",
-   "auction": "Cup of Excellence",
-   "country": "Brazil",
-   "year": 2017,
-   "category": "COE",
-   "rank": "",
-   "farm": "ECOAGRICOLA CAFÉ LTDA 2017…",
-   "variety": "",
-   "process": "",
-   "score": null,
-   "weight_lb": null,
-   "price_lb": 8.3,
-   "total_value": 6587.38,
-   "buyer": "",
-   "auction_date": "",
-   "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2017/",
-   "note": "",
-   "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
   },
   {
    "key": "5666a59701be108f",
@@ -68460,7 +68416,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3821e21ee47ea76c",
@@ -68482,7 +68438,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5b29ed1e1cf7919a",
@@ -68570,7 +68526,7 @@
    "url": "https://allianceforcoffeeexcellence.org/guatemala-2026/",
    "note": "Santa Rosa",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "56c688386428fe16",
@@ -69010,7 +68966,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "33189799ce28db8f",
@@ -69472,7 +69428,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f324504fcb9477b6",
@@ -70154,7 +70110,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "53d48b31032089e1",
@@ -70880,7 +70836,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3400b016e79cce37",
@@ -70902,7 +70858,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ede9eb1ad1a1941a",
@@ -71100,7 +71056,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7eea52bf1a4dbb9a",
@@ -71232,7 +71188,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b716dd83a5cf6d52",
@@ -71254,7 +71210,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c17ea92b45219610",
@@ -71917,6 +71873,28 @@
    "last_seen": 1786873971.059828
   },
   {
+   "key": "268b0d7d2d49ea55",
+   "source": "COE",
+   "auction": "Cup of Excellence",
+   "country": "Brazil",
+   "year": 2017,
+   "category": "COE",
+   "rank": "",
+   "farm": "ECOAGRICOLA CAFÉ LTDA 2017…",
+   "variety": "",
+   "process": "",
+   "score": null,
+   "weight_lb": null,
+   "price_lb": 8.0,
+   "total_value": 5820.16,
+   "buyer": "",
+   "auction_date": "",
+   "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
+   "note": "",
+   "first_seen": 1786873971.059828,
+   "last_seen": 1790767616.1259403
+  },
+  {
    "key": "5f9fa73dd0d63c61",
    "source": "COE",
    "auction": "Cup of Excellence",
@@ -71936,7 +71914,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0e5e8dc72e6da4e4",
@@ -71958,7 +71936,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "da73da58996b34b7",
@@ -71980,7 +71958,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f246c3711722f126",
@@ -72508,7 +72486,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1d08d4b961a491d3",
@@ -72530,7 +72508,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f9869160c13c7a92",
@@ -72552,7 +72530,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2ba29b610b5b6473",
@@ -72574,7 +72552,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8b2c4b4e82567daf",
@@ -72596,7 +72574,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "26ba70ab692bff05",
@@ -72640,7 +72618,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b7fc4c5ca0da78cf",
@@ -72728,7 +72706,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "60863683b6d3d056",
@@ -72750,7 +72728,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "17def583c5539366",
@@ -72904,7 +72882,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "cb45a06d13e73d1a",
@@ -73696,7 +73674,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "113c56ce49a0131b",
@@ -73718,7 +73696,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "93e7c83a240b3469",
@@ -74268,7 +74246,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f37cdbbe5db95a34",
@@ -74554,7 +74532,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0e0ca06dd3cdba19",
@@ -75305,6 +75283,28 @@
    "last_seen": 1786878280.7985861
   },
   {
+   "key": "4cd11d03aad864c3",
+   "source": "COE",
+   "auction": "Cup of Excellence",
+   "country": "Brazil",
+   "year": 2012,
+   "category": "COE",
+   "rank": "",
+   "farm": "Fazenda Monte Verde",
+   "variety": "",
+   "process": "",
+   "score": null,
+   "weight_lb": null,
+   "price_lb": 7.6,
+   "total_value": 14074.29,
+   "buyer": "",
+   "auction_date": "",
+   "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
+   "note": "",
+   "first_seen": 1786878280.7985861,
+   "last_seen": 1790767616.1259403
+  },
+  {
    "key": "cd1d7e57edf7ace6",
    "source": "COE",
    "auction": "Cup of Excellence",
@@ -75390,7 +75390,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3dd0389100d0aa01",
@@ -75503,6 +75503,28 @@
    "last_seen": 1786794130.401502
   },
   {
+   "key": "399c9d5025577f2b",
+   "source": "COE",
+   "auction": "Cup of Excellence",
+   "country": "Brazil",
+   "year": 2012,
+   "category": "COE",
+   "rank": "",
+   "farm": "Fazenda Rainha",
+   "variety": "",
+   "process": "",
+   "score": null,
+   "weight_lb": null,
+   "price_lb": 7.56,
+   "total_value": 14000.21,
+   "buyer": "",
+   "auction_date": "",
+   "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
+   "note": "",
+   "first_seen": 1786878280.7985861,
+   "last_seen": 1790767616.1259403
+  },
+  {
    "key": "f9179fea465eb8c4",
    "source": "COE",
    "auction": "Cup of Excellence",
@@ -75522,7 +75544,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f6a761842949cad4",
@@ -75544,7 +75566,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "88f535bbd6549141",
@@ -75566,7 +75588,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0c6a6b23ce5b06bc",
@@ -76471,6 +76493,50 @@
    "last_seen": 1786878280.7985861
   },
   {
+   "key": "c9a59fab494153ce",
+   "source": "COE",
+   "auction": "Cup of Excellence",
+   "country": "Brazil",
+   "year": 2012,
+   "category": "COE",
+   "rank": "",
+   "farm": "Fazenda Sertãozinho",
+   "variety": "",
+   "process": "",
+   "score": null,
+   "weight_lb": null,
+   "price_lb": 7.5,
+   "total_value": 13889.1,
+   "buyer": "",
+   "auction_date": "",
+   "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
+   "note": "",
+   "first_seen": 1786878280.7985861,
+   "last_seen": 1790767616.1259403
+  },
+  {
+   "key": "d2fee7ac57eb8dbf",
+   "source": "COE",
+   "auction": "Cup of Excellence",
+   "country": "Brazil",
+   "year": 2012,
+   "category": "COE",
+   "rank": "",
+   "farm": "Sítio Bela Vista",
+   "variety": "",
+   "process": "",
+   "score": null,
+   "weight_lb": null,
+   "price_lb": 7.5,
+   "total_value": 13889.1,
+   "buyer": "",
+   "auction_date": "",
+   "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
+   "note": "",
+   "first_seen": 1786878280.7985861,
+   "last_seen": 1790767616.1259403
+  },
+  {
    "key": "23c9990e32abcf2e",
    "source": "COE",
    "auction": "Cup of Excellence",
@@ -76490,7 +76556,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6b82c4cf7d3fedcc",
@@ -77128,7 +77194,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "8f898b92ab781875",
@@ -77150,7 +77216,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "367d3ac7899e26b4",
@@ -77172,7 +77238,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ddf06b2f7e17da8d",
@@ -78561,6 +78627,28 @@
    "last_seen": 1786873971.059828
   },
   {
+   "key": "ad3268b1837c5362",
+   "source": "COE",
+   "auction": "Cup of Excellence",
+   "country": "Brazil",
+   "year": 2017,
+   "category": "COE",
+   "rank": "",
+   "farm": "JARDIM DAS OLIVEIRAS 2017",
+   "variety": "",
+   "process": "",
+   "score": null,
+   "weight_lb": null,
+   "price_lb": 7.2,
+   "total_value": 11428.78,
+   "buyer": "",
+   "auction_date": "",
+   "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
+   "note": "",
+   "first_seen": 1786873971.059828,
+   "last_seen": 1790767616.1259403
+  },
+  {
    "key": "e3576ec7b75f4694",
    "source": "COE",
    "auction": "Cup of Excellence",
@@ -78954,7 +79042,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "dd0c6551ffcaa5e0",
@@ -79064,7 +79152,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "aab8cd6d5b61d6a8",
@@ -80186,7 +80274,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "41fd30d84f4003a9",
@@ -80208,7 +80296,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "289baba13539358c",
@@ -80560,7 +80648,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "989438b1e5f41c9f",
@@ -82210,7 +82298,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2f9b626d1e588e10",
@@ -82342,7 +82430,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3aa981d5f027e7fb",
@@ -82474,7 +82562,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Maracaturra · Macuelizo",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c5d4bb5ec529cb47",
@@ -82826,7 +82914,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "4dac2674ab8e730e",
@@ -83376,7 +83464,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "edf9d49ac96a76a5",
@@ -83486,7 +83574,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7f0ea2cc7a3bf913",
@@ -83811,28 +83899,6 @@
    "weight_lb": null,
    "price_lb": 6.6,
    "total_value": 4801.63,
-   "buyer": "",
-   "auction_date": "",
-   "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2017/",
-   "note": "",
-   "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
-  },
-  {
-   "key": "ad3268b1837c5362",
-   "source": "COE",
-   "auction": "Cup of Excellence",
-   "country": "Brazil",
-   "year": 2017,
-   "category": "COE",
-   "rank": "",
-   "farm": "JARDIM DAS OLIVEIRAS 2017",
-   "variety": "",
-   "process": "",
-   "score": null,
-   "weight_lb": null,
-   "price_lb": 6.6,
-   "total_value": 5238.16,
    "buyer": "",
    "auction_date": "",
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2017/",
@@ -84410,7 +84476,7 @@
    "url": "https://allianceforcoffeeexcellence.org/nicaragua-2026/",
    "note": "Maracaturra · Matagalpa",
    "first_seen": 1786794130.401502,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3660d64b831f8e86",
@@ -85161,28 +85227,6 @@
    "last_seen": 1786878280.7985861
   },
   {
-   "key": "d2fee7ac57eb8dbf",
-   "source": "COE",
-   "auction": "Cup of Excellence",
-   "country": "Brazil",
-   "year": 2012,
-   "category": "COE",
-   "rank": "",
-   "farm": "Sítio Bela Vista",
-   "variety": "",
-   "process": "",
-   "score": null,
-   "weight_lb": null,
-   "price_lb": 6.4,
-   "total_value": 16931.46,
-   "buyer": "",
-   "auction_date": "",
-   "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2012/",
-   "note": "",
-   "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
-  },
-  {
    "key": "148bc14bca5b928c",
    "source": "COE",
    "auction": "Cup of Excellence",
@@ -85642,7 +85686,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "89a8992cc47ccd63",
@@ -86984,7 +87028,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e807938628f9aff2",
@@ -87380,7 +87424,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a2240d38cc2ffb50",
@@ -87402,7 +87446,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "23eea2a780ac2c6b",
@@ -87556,7 +87600,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0a7ef9b72a6113a7",
@@ -87996,7 +88040,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "1c8d26b84372819b",
@@ -91846,7 +91890,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2011/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "75e704d55a177f19",
@@ -93433,28 +93477,6 @@
    "last_seen": 1786878280.7985861
   },
   {
-   "key": "4cd11d03aad864c3",
-   "source": "COE",
-   "auction": "Cup of Excellence",
-   "country": "Brazil",
-   "year": 2012,
-   "category": "COE",
-   "rank": "",
-   "farm": "Fazenda Monte Verde",
-   "variety": "",
-   "process": "",
-   "score": null,
-   "weight_lb": null,
-   "price_lb": 5.5,
-   "total_value": 23280.78,
-   "buyer": "",
-   "auction_date": "",
-   "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2012/",
-   "note": "",
-   "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
-  },
-  {
    "key": "567a1c7e02a680dc",
    "source": "COE",
    "auction": "Cup of Excellence",
@@ -94552,7 +94574,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "d5a89830e8660526",
@@ -94948,7 +94970,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2ef2c93cce66847a",
@@ -94970,7 +94992,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e4b5ff200f2078fb",
@@ -96048,7 +96070,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "fbeb46319e2a202c",
@@ -96774,7 +96796,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7dc9975cceb4e3e8",
@@ -97280,7 +97302,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "83118710f0abe057",
@@ -97302,7 +97324,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "35a059752cd67301",
@@ -97324,7 +97346,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a60526627805e165",
@@ -97896,7 +97918,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "b927b70f7e0cb002",
@@ -98490,7 +98512,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "621d65fa6a514c4d",
@@ -98512,7 +98534,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f05b9e5be5024bb3",
@@ -98667,28 +98689,6 @@
    "note": "",
    "first_seen": 1786794130.401502,
    "last_seen": 1786794130.401502
-  },
-  {
-   "key": "399c9d5025577f2b",
-   "source": "COE",
-   "auction": "Cup of Excellence",
-   "country": "Brazil",
-   "year": 2012,
-   "category": "COE",
-   "rank": "",
-   "farm": "Fazenda Rainha",
-   "variety": "",
-   "process": "",
-   "score": null,
-   "weight_lb": null,
-   "price_lb": 4.52,
-   "total_value": 11359.94,
-   "buyer": "",
-   "auction_date": "",
-   "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2012/",
-   "note": "",
-   "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
   },
   {
    "key": "3c940180f2be37b3",
@@ -99128,7 +99128,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a1ab6c6cda8758b6",
@@ -101350,7 +101350,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "580d6a98f9303f7d",
@@ -101372,7 +101372,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "ee7e71d3ad4e65d2",
@@ -101394,7 +101394,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7235655def55daf3",
@@ -101416,7 +101416,7 @@
    "url": "https://allianceforcoffeeexcellence.org/colombia-south-2012/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "741c3b26b75a4026",
@@ -104056,7 +104056,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9d9925d16bcae2a8",
@@ -106036,7 +106036,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "651c9ba199b184fb",
@@ -106058,7 +106058,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3a51610f733d1527",
@@ -106124,7 +106124,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "e1d246eeefd0887c",
@@ -106432,7 +106432,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "146dc2c650e6018f",
@@ -108104,7 +108104,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5aa2c5512da5272c",
@@ -108126,7 +108126,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "57a35028689e66ce",
@@ -108148,7 +108148,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-pulped-naturals-2017/",
    "note": "",
    "first_seen": 1786873971.059828,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0199aa82525e3ff7",
@@ -108500,7 +108500,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7b4eb0ee5a64e4bf",
@@ -108522,7 +108522,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "9d3236f3228dc948",
@@ -108544,7 +108544,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "df4c23f978ad741a",
@@ -108566,7 +108566,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "982ea47fc5e299d7",
@@ -108588,7 +108588,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "23342a63518f50fa",
@@ -108610,7 +108610,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "c8597f3774f7cbd2",
@@ -108632,7 +108632,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "f20144ce280e08f6",
@@ -108654,7 +108654,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "36c5b40d8a58d05c",
@@ -108676,7 +108676,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3e76c0fc0d8b3189",
@@ -108698,7 +108698,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "2d8cb3ad547b62de",
@@ -108720,7 +108720,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "db4970ff6162d56d",
@@ -108742,7 +108742,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "0aa21c0c8fc3dedc",
@@ -108764,7 +108764,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "70355ee80a283972",
@@ -108786,7 +108786,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "6481eb9e1ab53b3b",
@@ -108808,7 +108808,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "7674713fad99103b",
@@ -108830,7 +108830,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "bd83635e2947b44a",
@@ -108852,7 +108852,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "413239315a6072f2",
@@ -108874,7 +108874,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "5edb364d5df23bad",
@@ -108896,7 +108896,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "3f2285363dfe514d",
@@ -108918,7 +108918,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "4af4fb532ffadfe3",
@@ -108940,7 +108940,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "154ada9e5f7333dc",
@@ -108962,7 +108962,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "a339a332ba2fe305",
@@ -108984,7 +108984,7 @@
    "url": "https://allianceforcoffeeexcellence.org/brazil-naturals-2014/",
    "note": "",
    "first_seen": 1786878280.7985861,
-   "last_seen": 1790681950.2493472
+   "last_seen": 1790767616.1259403
   },
   {
    "key": "288b24c17a730594",
@@ -110036,8 +110036,8 @@
  ],
  "failed": [],
  "fx": {
-  "jpy": 156.88,
-  "asof": "2026-09-28",
+  "jpy": 157.12,
+  "asof": "2026-09-29",
   "live": true
  },
  "schedule": [
